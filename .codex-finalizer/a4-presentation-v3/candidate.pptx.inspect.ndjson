@@ -1,0 +1,160 @@
+{"kind":"deck","id":"pr/u5bndj","name":"Deck"}
+{"kind":"layout","layoutId":"93dc28b0-3ab7-4975-b7d6-866df02c08fa","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d9bff3e0-dd5a-4424-8e78-0bc95d03d5f0","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/wf9pcc","slide":1,"title":"ONE DAY. MANY INVISIBLE DECISIONS.","textShapes":10}
+{"kind":"shape","id":"sh/wb6h4byd","slide":1,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/vaxgb6h8","slide":1,"text":"ONE DAY. MANY INVISIBLE DECISIONS.","textPreview":"ONE DAY. MANY INVISIBLE DECISIONS.","textChars":34,"textLines":1,"bbox":[88,58,590,32]}
+{"kind":"textbox","id":"sh/u9of21gn","slide":1,"text":"An Ordinary Day,\nAlready Designed.","textPreview":"An Ordinary Day, | Already Designed.","textChars":34,"textLines":2,"bbox":[88,126,720,170]}
+{"kind":"textbox","id":"sh/50zyhgza","slide":1,"text":"ARE YOU READY FOR","textPreview":"ARE YOU READY FOR","textChars":17,"textLines":1,"bbox":[868,88,320,38]}
+{"kind":"textbox","id":"sh/4zqh8byp","slide":1,"text":"IT?","textPreview":"IT?","textChars":3,"textLines":1,"bbox":[866,132,324,156]}
+{"kind":"textbox","id":"sh/jyhgfqh4","slide":1,"text":"information technology?\nthe system around me?\nthe future already planned?","textPreview":"information technology? | the system around me? | the future already planned?","textChars":73,"textLines":3,"bbox":[884,300,290,104]}
+{"kind":"shape","id":"sh/id8z6lgj","slide":1,"bbox":[88,408,1102,150]}
+{"kind":"textbox","id":"sh/t4jyl0f6","slide":1,"text":"Do I know what ‘it’ is?","textPreview":"Do I know what ‘it’ is?","textChars":23,"textLines":1,"bbox":[122,450,298,56]}
+{"kind":"shape","id":"sh/s3ahcvyl","slide":1,"bbox":[448,436,0,94]}
+{"kind":"textbox","id":"sh/m58vqlwv","slide":1,"text":"Do I have a say in defining it?","textPreview":"Do I have a say in defining it?","textChars":31,"textLines":1,"bbox":[478,447,314,62]}
+{"kind":"shape","id":"sh/n61czqxg","slide":1,"bbox":[812,436,0,94]}
+{"kind":"textbox","id":"sh/8radsve1","slide":1,"text":"Can I change my role?","textPreview":"Can I change my role?","textChars":21,"textLines":1,"bbox":[850,450,298,56]}
+{"kind":"textbox","id":"sh/9sju10vm","slide":1,"text":"Chinese Gen Z between super apps and agentic AI","textPreview":"Chinese Gen Z between super apps and agentic AI","textChars":47,"textLines":1,"bbox":[92,606,760,40]}
+{"kind":"textbox","id":"sh/atsvu5wr","slide":1,"text":"MSCD Pre-Thesis   Fall 2026","textPreview":"MSCD Pre-Thesis   Fall 2026","textChars":27,"textLines":1,"bbox":[902,612,286,30]}
+{"kind":"notes","id":"nt/wf9pcc","slide":1,"text":"About 50 seconds.\n\nThe word IT is intentional. It means information technology, but it also means the unnamed thing that already surrounds an ordinary day. Do I really know what it is doing? Do I have a say in defining its place in my life? Can I change the role it gives me? My topic is not one moment of human-AI collaboration. I want to study an ordinary day in the digital life of adult Chinese Gen Z. Paying, communicating, travelling, learning, and working already pass through super apps. Generative AI now joins thinking, while emerging agents begin to act. I want to understand whether people can see this accumulated relationship and describe the relationship they would rather have."}
+{"kind":"slide","id":"sl/l1gcqz","slide":2,"title":"The object of study is a day, not one isolated task","textShapes":15}
+{"kind":"textbox","id":"sh/8jm9sne5","slide":2,"text":"The object of study is a day, not one isolated task","textPreview":"The object of study is a day, not one isolated task","textChars":51,"textLines":1,"bbox":[64,42,1070,48]}
+{"kind":"textbox","id":"sh/7id8jidk","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/mhkrqdwz","slide":2,"bbox":[64,104,1152,0]}
+{"kind":"shape","id":"sh/hovapsvm","slide":2,"bbox":[100,316,1030,0]}
+{"kind":"shape","id":"sh/wnm9wne1","slide":2,"bbox":[110,280,72,72]}
+{"kind":"textbox","id":"sh/vmdsnidg","slide":2,"text":"WAKE","textPreview":"WAKE","textChars":4,"textLines":1,"bbox":[70,205,150,34]}
+{"kind":"textbox","id":"sh/ul4rudwb","slide":2,"text":"messages","textPreview":"messages","textChars":8,"textLines":1,"bbox":[70,382,150,50]}
+{"kind":"shape","id":"sh/5cfatcvy","slide":2,"bbox":[290,280,72,72]}
+{"kind":"textbox","id":"sh/4b6907ed","slide":2,"text":"MOVE","textPreview":"MOVE","textChars":4,"textLines":1,"bbox":[250,205,150,34]}
+{"kind":"textbox","id":"sh/65kr2hcr","slide":2,"text":"map and pay","textPreview":"map and pay","textChars":11,"textLines":1,"bbox":[250,382,150,50]}
+{"kind":"shape","id":"sh/76tsbmtc","slide":2,"bbox":[470,280,72,72]}
+{"kind":"textbox","id":"sh/87mt4ruh","slide":2,"text":"LEARN","textPreview":"LEARN","textChars":5,"textLines":1,"bbox":[430,205,150,34]}
+{"kind":"textbox","id":"sh/t8vaxwb2","slide":2,"text":"search and AI","textPreview":"search and AI","textChars":13,"textLines":1,"bbox":[430,382,150,50]}
+{"kind":"shape","id":"sh/u94b61cn","slide":2,"bbox":[650,280,72,72]}
+{"kind":"textbox","id":"sh/vadsz6t8","slide":2,"text":"WORK","textPreview":"WORK","textChars":4,"textLines":1,"bbox":[610,205,150,34]}
+{"kind":"textbox","id":"sh/gbmt8bat","slide":2,"text":"write and decide","textPreview":"write and decide","textChars":16,"textLines":1,"bbox":[610,382,150,50]}
+{"kind":"shape","id":"sh/hwva1wbe","slide":2,"bbox":[830,280,72,72]}
+{"kind":"textbox","id":"sh/ad0ruxcj","slide":2,"text":"ACT","textPreview":"ACT","textChars":3,"textLines":1,"bbox":[790,205,150,34]}
+{"kind":"textbox","id":"sh/be9s32t4","slide":2,"text":"delegate steps","textPreview":"delegate steps","textChars":14,"textLines":1,"bbox":[790,382,150,50]}
+{"kind":"shape","id":"sh/zipovy9w","slide":2,"bbox":[1010,280,72,72]}
+{"kind":"textbox","id":"sh/ehg72tsb","slide":2,"text":"REST","textPreview":"REST","textChars":4,"textLines":1,"bbox":[970,205,150,34]}
+{"kind":"textbox","id":"sh/1k7qx8rm","slide":2,"text":"feeds and chat","textPreview":"feeds and chat","textChars":14,"textLines":1,"bbox":[970,382,150,50]}
+{"kind":"shape","id":"sh/0jyp43ah","slide":2,"bbox":[116,492,1048,118]}
+{"kind":"textbox","id":"sh/re5ory9k","slide":2,"text":"Each interaction looks small. Together, they form a way of living.","textPreview":"Each interaction looks small. Together, they form a way of living.","textChars":66,"textLines":1,"bbox":[154,521,972,58]}
+{"kind":"notes","id":"nt/l1gcqz","slide":2,"text":"About 65 seconds.\n\nA large amount of research studies one clear interaction, such as writing with AI, drawing with a robot, or making one decision. Those studies are important. My unit of inquiry is different. I follow the accumulated relationship across an ordinary day. A person may wake up inside a messaging platform, use a map and payment system, search or write with AI, and later ask a system to complete several steps. Each interaction seems small. Together, they may shape habits, attention, language, expectations, and what feels necessary. This gives the three probes one shared object instead of making them three separate technology projects."}
+{"kind":"slide","id":"sl/ex4osr","slide":3,"title":"MAIN RESEARCH QUESTION","textShapes":6}
+{"kind":"textbox","id":"sh/5gn2xg3q","slide":3,"text":"MAIN RESEARCH QUESTION","textPreview":"MAIN RESEARCH QUESTION","textChars":22,"textLines":1,"bbox":[72,48,560,36]}
+{"kind":"textbox","id":"sh/idw3ml4z","slide":3,"text":"How do adult Chinese Gen Z notice and explain the ways digital infrastructures and emerging AI shape an ordinary day in their lives, and what current and preferred roles do they describe for themselves and these systems?","textPreview":"How do adult Chinese Gen Z notice and explain the ways digital infrastructures and emerging AI shape an ordinary day in their lives, and ...","textChars":220,"textLines":1,"bbox":[72,124,1120,340]}
+{"kind":"shape","id":"sh/je5kvqlk","slide":3,"bbox":[72,512,1120,0]}
+{"kind":"textbox","id":"sh/sjylsvm1","slide":3,"text":"CURRENT","textPreview":"CURRENT","textChars":7,"textLines":1,"bbox":[72,552,210,30]}
+{"kind":"textbox","id":"sh/t472103m","slide":3,"text":"What role am I already playing?","textPreview":"What role am I already playing?","textChars":31,"textLines":1,"bbox":[72,590,430,50]}
+{"kind":"textbox","id":"sh/6hw3ql4b","slide":3,"text":"PREFERRED","textPreview":"PREFERRED","textChars":9,"textLines":1,"bbox":[646,552,210,30]}
+{"kind":"textbox","id":"sh/7ipkzqlg","slide":3,"text":"What role would I rather play?","textPreview":"What role would I rather play?","textChars":30,"textLines":1,"bbox":[646,590,430,50]}
+{"kind":"notes","id":"nt/ex4osr","slide":3,"text":"About 60 seconds.\n\nThis is my revised research question. I use notice because some effects may already feel normal and may be hard to name. Explain means that participants connect a system to a concrete part of their own day. I then compare two kinds of roles. The current role is what the person and the system already do. The preferred role is what the participant would rather keep, share, refuse, or change. I am not asking participants to reach one correct conclusion. They may welcome a system in one scene, feel trapped in another, or change their view during the session."}
+{"kind":"slide","id":"sl/5z6mug","slide":4,"title":"Why this question feels urgent now","textShapes":9}
+{"kind":"textbox","id":"sh/w761sjil","slide":4,"text":"Why this question feels urgent now","textPreview":"Why this question feels urgent now","textChars":34,"textLines":1,"bbox":[64,42,1070,48]}
+{"kind":"textbox","id":"sh/v6dkzehg","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/u54jqt0v","slide":4,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/5cf258zi","slide":4,"text":"MATURE PLATFORM DEPENDENCE","textPreview":"MATURE PLATFORM DEPENDENCE","textChars":26,"textLines":1,"bbox":[76,148,475,34]}
+{"kind":"shape","id":"sh/4b61w3ix","slide":4,"bbox":[76,196,476,300]}
+{"kind":"textbox","id":"sh/jaxk3yhc","slide":4,"text":"Many daily activities already depend on the same platforms, accounts, and social networks.","textPreview":"Many daily activities already depend on the same platforms, accounts, and social networks.","textChars":90,"textLines":1,"bbox":[112,232,404,104]}
+{"kind":"textbox","id":"sh/i9ojut0r","slide":4,"text":"Leaving can carry a practical or social cost.","textPreview":"Leaving can carry a practical or social cost.","textChars":45,"textLines":1,"bbox":[116,390,396,60]}
+{"kind":"textbox","id":"sh/t0z298ze","slide":4,"text":"RAPID AGENTIC CHANGE","textPreview":"RAPID AGENTIC CHANGE","textChars":20,"textLines":1,"bbox":[728,148,475,34]}
+{"kind":"shape","id":"sh/szq103it","slide":4,"bbox":[728,196,476,300]}
+{"kind":"textbox","id":"sh/6tw7ydgr","slide":4,"text":"AI is moving from one reply to longer tasks, tool use, parallel agents, and real-world context.","textPreview":"AI is moving from one reply to longer tasks, tool use, parallel agents, and real-world context.","textChars":95,"textLines":1,"bbox":[764,232,404,124]}
+{"kind":"textbox","id":"sh/7u587ixc","slide":4,"text":"Its role is changing faster than everyday language for discussing it.","textPreview":"Its role is changing faster than everyday language for discussing it.","textChars":69,"textLines":1,"bbox":[764,390,404,74]}
+{"kind":"shape","id":"sh/8vep0nyx","slide":4,"bbox":[244,548,792,88]}
+{"kind":"textbox","id":"sh/tw7q9sf2","slide":4,"text":"Why is this here?   What can it read?   Can I refuse it?","textPreview":"Why is this here?   What can it read?   Can I refuse it?","textChars":56,"textLines":1,"bbox":[280,572,720,40]}
+{"kind":"notes","id":"nt/5z6mug","slide":4,"text":"About 85 seconds.\n\nThe urgency comes from two changes happening together. First, China already has mature platform infrastructures. Leaving a platform can mean losing access to relationships, payment, work, or services. Second, AI is entering these systems while agentic technology is moving from one answer to longer tasks, tool use, parallel agents, and context sensing. I recently saw public reactions to WeChat AI features framed through basic questions: Why is this here? What can it read? Can I turn it off? Tencent stated that its AI Search used public information rather than private user data, but the reaction still matters. It shows that an AI layer can enter a necessary system before people understand its purpose or role.\n\nSources: IT之家, July 2, 2025, on reactions to WeChat AI Search and Tencent's response. OpenAI, How agents are transforming work, June 25, 2026. Google Research, Towards a science of scaling agent systems, January 28, 2026."}
+{"kind":"slide","id":"sl/apj4u1","slide":5,"title":"The relationship is not new. The unit of inquiry is different.","textShapes":14}
+{"kind":"textbox","id":"sh/94ji5oby","slide":5,"text":"The relationship is not new. The unit of inquiry is different.","textPreview":"The relationship is not new. The unit of inquiry is different.","textChars":62,"textLines":1,"bbox":[64,42,1070,48]}
+{"kind":"textbox","id":"sh/m18zutc7","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/n2h03ets","slide":5,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/wra103u9","slide":5,"text":"ESTABLISHED RESEARCH","textPreview":"ESTABLISHED RESEARCH","textChars":20,"textLines":1,"bbox":[74,146,470,34]}
+{"kind":"textbox","id":"sh/xsji98bu","slide":5,"text":"Human-AI collaboration\nTrust and reliance\nBlack boxes and explainability\nAgency and control\nWriting, education, robotics","textPreview":"Human-AI collaboration | Trust and reliance | Black boxes and explainability | Agency and control | Writing, education, robotics","textChars":120,"textLines":5,"bbox":[74,210,500,260]}
+{"kind":"shape","id":"sh/apsjytcj","slide":5,"bbox":[624,144,0,444]}
+{"kind":"textbox","id":"sh/vq107yt4","slide":5,"text":"THIS STUDY ADDS","textPreview":"THIS STUDY ADDS","textChars":15,"textLines":1,"bbox":[692,146,470,34]}
+{"kind":"textbox","id":"sh/kva143ul","slide":5,"text":"One cohort","textPreview":"One cohort","textChars":10,"textLines":1,"bbox":[692,210,200,34]}
+{"kind":"textbox","id":"sh/5w3id8b6","slide":5,"text":"Adult Chinese Gen Z","textPreview":"Adult Chinese Gen Z","textChars":19,"textLines":1,"bbox":[926,210,270,34]}
+{"kind":"textbox","id":"sh/pk3ips3a","slide":5,"text":"One scale","textPreview":"One scale","textChars":9,"textLines":1,"bbox":[692,286,200,34]}
+{"kind":"textbox","id":"sh/oju1gnmp","slide":5,"text":"An accumulated day","textPreview":"An accumulated day","textChars":18,"textLines":1,"bbox":[926,286,270,34]}
+{"kind":"textbox","id":"sh/3il0nil4","slide":5,"text":"Three cuts","textPreview":"Three cuts","textChars":10,"textLines":1,"bbox":[692,362,200,34]}
+{"kind":"textbox","id":"sh/2hcjed4j","slide":5,"text":"Routine, knowledge, action","textPreview":"Routine, knowledge, action","textChars":26,"textLines":1,"bbox":[926,362,270,58]}
+{"kind":"textbox","id":"sh/d8nits36","slide":5,"text":"One comparison","textPreview":"One comparison","textChars":14,"textLines":1,"bbox":[692,457,210,34]}
+{"kind":"textbox","id":"sh/c7e1knml","slide":5,"text":"Current and preferred roles","textPreview":"Current and preferred roles","textChars":27,"textLines":1,"bbox":[926,457,270,58]}
+{"kind":"shape","id":"sh/b650r2lg","slide":5,"bbox":[168,604,944,64]}
+{"kind":"textbox","id":"sh/q5cjix4v","slide":5,"text":"The claim is specific. It does not depend on pretending that nobody studied human-technology relationships before.","textPreview":"The claim is specific. It does not depend on pretending that nobody studied human-technology relationships before.","textChars":114,"textLines":1,"bbox":[206,621,868,34]}
+{"kind":"notes","id":"nt/apj4u1","slide":5,"text":"About 75 seconds.\n\nThe human-technology relationship is not a new topic. There is already important work on collaboration, trust, black boxes, explainability, agency, control, writing, education, and robotics. I should not claim that I ask a question nobody asked before. My contribution is more specific. I study one bounded group in a platform-heavy context. I use the accumulated day as the scale instead of one task. I make three cuts through that day: routine, knowledge, and action. Then I compare the roles participants experience now with the roles they would prefer. This is a clearer and more defensible contribution than saying I start earlier than existing research.\n\nRelated sources include Plantin and de Seta (2019) on WeChat as infrastructure, and Amershi et al. (2019) on guidelines for human-AI interaction."}
+{"kind":"slide","id":"sl/myabr0","slide":6,"title":"Three cuts through the same ordinary day","textShapes":15}
+{"kind":"textbox","id":"sh/vaponat0","slide":6,"text":"Three cuts through the same ordinary day","textPreview":"Three cuts through the same ordinary day","textChars":40,"textLines":1,"bbox":[64,42,1070,48]}
+{"kind":"textbox","id":"sh/wby5gful","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/xc76pkb6","slide":6,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/m5wna5cj","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,140,56,38]}
+{"kind":"textbox","id":"sh/n654jad4","slide":6,"text":"EVERYDAY CONDITIONS","textPreview":"EVERYDAY CONDITIONS","textChars":19,"textLines":1,"bbox":[124,145,270,30]}
+{"kind":"shape","id":"sh/87y5cvup","slide":6,"bbox":[62,198,350,360]}
+{"kind":"textbox","id":"sh/987ml0va","slide":6,"text":"Evil PM\nSimulator","textPreview":"Evil PM | Simulator","textChars":17,"textLines":2,"bbox":[90,234,294,92]}
+{"kind":"shape","id":"sh/610nmpcn","slide":6,"bbox":[110,348,254,0]}
+{"kind":"textbox","id":"sh/729ovut8","slide":6,"text":"How platform choices become routines, requirements, and normal expectations","textPreview":"How platform choices become routines, requirements, and normal expectations","textChars":75,"textLines":1,"bbox":[96,381,282,132]}
+{"kind":"textbox","id":"sh/n6xs76lo","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[448,140,56,38]}
+{"kind":"textbox","id":"sh/m5ory1k3","slide":6,"text":"KNOWLEDGE-MAKING","textPreview":"KNOWLEDGE-MAKING","textChars":16,"textLines":1,"bbox":[510,145,270,30]}
+{"kind":"shape","id":"sh/98fa9w3e","slide":6,"bbox":[448,198,350,360]}
+{"kind":"textbox","id":"sh/o7690b2t","slide":6,"text":"Epistemic\nIllusion","textPreview":"Epistemic | Illusion","textChars":18,"textLines":2,"bbox":[476,234,294,92]}
+{"kind":"shape","id":"sh/bahsb6lk","slide":6,"bbox":[496,348,254,0]}
+{"kind":"textbox","id":"sh/a9ob21kz","slide":6,"text":"How AI joins searching, interpreting, writing, and judging","textPreview":"How AI joins searching, interpreting, writing, and judging","textChars":58,"textLines":1,"bbox":[482,381,282,132]}
+{"kind":"textbox","id":"sh/xwzadg3q","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[834,140,56,38]}
+{"kind":"textbox","id":"sh/wvqt4b25","slide":6,"text":"ACTING","textPreview":"ACTING","textChars":6,"textLines":1,"bbox":[896,145,270,30]}
+{"kind":"shape","id":"sh/jyhsfqlg","slide":6,"bbox":[834,198,350,360]}
+{"kind":"textbox","id":"sh/yx8b6lkb","slide":6,"text":"Cyber-Utopia\nPersona Quiz","textPreview":"Cyber-Utopia | Persona Quiz","textChars":25,"textLines":2,"bbox":[862,234,294,92]}
+{"kind":"shape","id":"sh/e5c3u98f","slide":6,"bbox":[882,348,254,0]}
+{"kind":"textbox","id":"sh/f6l4ne90","slide":6,"text":"How a system moves from giving an answer to carrying out steps","textPreview":"How a system moves from giving an answer to carrying out steps","textChars":62,"textLines":1,"bbox":[868,381,282,132]}
+{"kind":"textbox","id":"sh/g7elwjql","slide":6,"text":"The probes sample a larger relationship. They do not claim to cover every part of life.","textPreview":"The probes sample a larger relationship. They do not claim to cover every part of life.","textChars":87,"textLines":1,"bbox":[168,614,944,44]}
+{"kind":"notes","id":"nt/myabr0","slide":6,"text":"About 90 seconds.\n\nThe three probes are not three separate technology studies. Each one cuts into a different part of the same larger relationship. Evil PM Simulator explores how product and platform choices can become everyday conditions for other people. Epistemic Illusion explores how AI enters knowledge-making and how participants understand their own contribution. Cyber-Utopia Persona Quiz explores the movement from advice toward action. It asks how people imagine a system carrying out steps as situations become more personal or uncertain. These three cuts do not represent every part of life. They give the project enough difference for comparison while keeping one shared question.\n\nMethod sources: Zimmerman, Forlizzi, and Evenson (2007); Gaver (2012); Boehner et al. (2007)."}
+{"kind":"slide","id":"sl/9hankc","slide":7,"title":"What happens in a probe session","textShapes":18}
+{"kind":"textbox","id":"sh/2x4ralkb","slide":7,"text":"What happens in a probe session","textPreview":"What happens in a probe session","textChars":31,"textLines":1,"bbox":[64,42,1070,48]}
+{"kind":"textbox","id":"sh/pkvalgj2","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/ozm9cv2h","slide":7,"bbox":[64,104,1152,0]}
+{"kind":"shape","id":"sh/bmxsnq1s","slide":7,"bbox":[152,240,140,0]}
+{"kind":"shape","id":"sh/qlorelkn","slide":7,"bbox":[100,194,92,92]}
+{"kind":"textbox","id":"sh/dofap0jy","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[100,213,92,50]}
+{"kind":"textbox","id":"sh/cn6tgv2d","slide":7,"text":"EXPERIENCE","textPreview":"EXPERIENCE","textChars":10,"textLines":1,"bbox":[56,327,180,30]}
+{"kind":"textbox","id":"sh/7qtsb61o","slide":7,"text":"Enter a concrete situation","textPreview":"Enter a concrete situation","textChars":26,"textLines":1,"bbox":[56,376,180,106]}
+{"kind":"shape","id":"sh/6pkr21k3","slide":7,"bbox":[388,240,140,0]}
+{"kind":"shape","id":"sh/47qxsful","slide":7,"bbox":[336,194,92,92]}
+{"kind":"textbox","id":"sh/p8zel0b6","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[336,213,92,50]}
+{"kind":"textbox","id":"sh/2l8fq5cv","slide":7,"text":"NOTICE","textPreview":"NOTICE","textChars":6,"textLines":1,"bbox":[292,327,180,30]}
+{"kind":"textbox","id":"sh/3mhwjatg","slide":7,"text":"Point out what feels normal or strange","textPreview":"Point out what feels normal or strange","textChars":38,"textLines":1,"bbox":[292,376,180,106]}
+{"kind":"shape","id":"sh/cbaxwfux","slide":7,"bbox":[624,240,140,0]}
+{"kind":"shape","id":"sh/dcjepkbi","slide":7,"bbox":[572,194,92,92]}
+{"kind":"textbox","id":"sh/q98fu5cr","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[572,213,92,50]}
+{"kind":"textbox","id":"sh/ra1wnatc","slide":7,"text":"EXPLAIN","textPreview":"EXPLAIN","textChars":7,"textLines":1,"bbox":[528,327,180,30]}
+{"kind":"textbox","id":"sh/sf6xkvud","slide":7,"text":"Connect it to a real part of the day","textPreview":"Connect it to a real part of the day","textChars":36,"textLines":1,"bbox":[528,376,180,106]}
+{"kind":"shape","id":"sh/tgfedgby","slide":7,"bbox":[860,240,140,0]}
+{"kind":"shape","id":"sh/9c7uhcn2","slide":7,"bbox":[808,194,92,92]}
+{"kind":"textbox","id":"sh/8bydo7mh","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[808,213,92,50]}
+{"kind":"textbox","id":"sh/7apcf25w","slide":7,"text":"COMPARE","textPreview":"COMPARE","textChars":7,"textLines":1,"bbox":[764,327,180,30]}
+{"kind":"textbox","id":"sh/m9gvmh4b","slide":7,"text":"Describe current and preferred roles","textPreview":"Describe current and preferred roles","textChars":36,"textLines":1,"bbox":[764,376,180,106]}
+{"kind":"shape","id":"sh/h0rulwny","slide":7,"bbox":[1044,194,92,92]}
+{"kind":"textbox","id":"sh/wfidsrmd","slide":7,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1044,213,92,50]}
+{"kind":"textbox","id":"sh/ve9cjm5s","slide":7,"text":"CHALLENGE","textPreview":"CHALLENGE","textChars":9,"textLines":1,"bbox":[1000,327,180,30]}
+{"kind":"textbox","id":"sh/udgvqh4n","slide":7,"text":"Disagree, revise, or reject the probe","textPreview":"Disagree, revise, or reject the probe","textChars":37,"textLines":1,"bbox":[1000,376,180,106]}
+{"kind":"shape","id":"sh/54rupwna","slide":7,"bbox":[145,548,990,94]}
+{"kind":"textbox","id":"sh/43idwrmp","slide":7,"text":"Success means a participant can trace an influence and describe a relationship.\nIt does not require fear, resistance, or a request for more control.","textPreview":"Success means a participant can trace an influence and describe a relationship. | It does not require fear, resistance, or a request for ...","textChars":148,"textLines":2,"bbox":[190,567,900,58]}
+{"kind":"notes","id":"nt/9hankc","slide":7,"text":"About 80 seconds.\n\nThe sessions will be semi-structured. A participant first experiences a concrete situation. I then ask what felt normal, strange, useful, or uncomfortable. The participant connects the situation to a real part of their day and describes the roles that exist now. Then I ask what relationship they would prefer. Finally, they can disagree with the probe, revise their answer, or reject the way I framed the issue. Success does not mean that a participant becomes afraid of technology or asks for more control. It means they can trace an influence, explain their position, and give evidence for a current or preferred relationship."}
+{"kind":"slide","id":"sl/1bzpi1","slide":8,"title":"What may remain after the probes","textShapes":13}
+{"kind":"textbox","id":"sh/7650rqhw","slide":8,"text":"What may remain after the probes","textPreview":"What may remain after the probes","textChars":32,"textLines":1,"bbox":[64,45,1050,48]}
+{"kind":"textbox","id":"sh/s7yhkvyh","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1156,49,60,34]}
+{"kind":"shape","id":"sh/t87it0z2","slide":8,"bbox":[64,107,1152,0]}
+{"kind":"textbox","id":"sh/ihwzelgf","slide":8,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,157,60,38]}
+{"kind":"textbox","id":"sh/ji50nqh0","slide":8,"text":"A map of role tensions across an ordinary day","textPreview":"A map of role tensions across an ordinary day","textChars":45,"textLines":1,"bbox":[150,155,550,72]}
+{"kind":"textbox","id":"sh/kjehgvy5","slide":8,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,267,60,38]}
+{"kind":"textbox","id":"sh/5knip0zq","slide":8,"text":"Patterns between current and preferred roles","textPreview":"Patterns between current and preferred roles","textChars":44,"textLines":1,"bbox":[150,265,550,72]}
+{"kind":"textbox","id":"sh/2dgjq5gj","slide":8,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,377,60,38]}
+{"kind":"textbox","id":"sh/3ep0zah4","slide":8,"text":"An annotated portfolio of the three probes","textPreview":"An annotated portfolio of the three probes","textChars":42,"textLines":1,"bbox":[150,375,550,72]}
+{"kind":"textbox","id":"sh/f61g7md0","slide":8,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,487,60,38]}
+{"kind":"textbox","id":"sh/e5szy1wf","slide":8,"text":"Design questions for AI entering everyday infrastructure","textPreview":"Design questions for AI entering everyday infrastructure","textChars":56,"textLines":1,"bbox":[150,485,550,72]}
+{"kind":"shape","id":"sh/18ji9wv6","slide":8,"bbox":[772,154,430,426]}
+{"kind":"textbox","id":"sh/g7ah0rel","slide":8,"text":"WHAT THIS IS USEFUL FOR","textPreview":"WHAT THIS IS USEFUL FOR","textChars":23,"textLines":1,"bbox":[810,194,350,32]}
+{"kind":"textbox","id":"sh/3al0b6dw","slide":8,"text":"Showing where people cannot explain a system's role\n\nShowing where current and preferred relationships do not match\n\nGiving later studies a situated point of comparison","textPreview":"Showing where people cannot explain a system's role |  | Showing where current and preferred relationships do not match |  | Giving later...","textChars":168,"textLines":5,"bbox":[810,260,350,250]}
+{"kind":"textbox","id":"sh/29cz21wr","slide":8,"text":"The result is situated knowledge, not a universal rule","textPreview":"The result is situated knowledge, not a universal rule","textChars":54,"textLines":1,"bbox":[182,632,916,36]}
+{"kind":"notes","id":"nt/1bzpi1","slide":8,"text":"About 75 seconds.\n\nThe project should leave more than the statement that people want control. I expect four connected outputs. The first is a map of role tensions across an ordinary day. The second compares roles that participants experience now with roles they would prefer. The third is an annotated portfolio that explains what each probe revealed and what it failed to reveal. The fourth is a set of design questions for systems entering everyday infrastructure. For designers, the value is evidence about where a system's role becomes unclear and where current and preferred relationships do not match. For later researchers, the study offers a situated point of comparison as agentic technology develops. The result remains tied to this participant group and context."}

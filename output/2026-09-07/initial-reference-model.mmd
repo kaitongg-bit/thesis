@@ -1,0 +1,100 @@
+%% STATUS: v1 superseded by initial-reference-model-v2-chinese-gen-z.mmd
+flowchart LR
+  subgraph Context["CONTEXT AND CONSTRAINTS"]
+    direction TB
+    C01(["C01<br/>Degree of platform dependence"])
+    C02(["C02<br/>Cost of alternative arrangements"])
+    C03(["C03<br/>Intensity of required digital use"])
+    C04(["C04<br/>Degree of time pressure"])
+    C05(["C05<br/>Access to practical resources"])
+    C06(["C06<br/>Availability of social negotiation"])
+  end
+  subgraph Interface["INTERFACE ARRANGEMENTS"]
+    direction TB
+    I01(["I01<br/>Salience of efficiency and<br/>outcomes"])
+    I02(["I02<br/>Intensity of commercial steering"])
+    I03(["I03<br/>Visibility of selection criteria<br/>KEY FACTOR"])
+    I04(["I04<br/>Visibility of human AI contributions<br/>KEY FACTOR"])
+    I05(["I05<br/>Availability of correction and<br/>revocation"])
+    I06(["I06<br/>Exposure to a model viewpoint"])
+    I07(["I07<br/>Clarity of delegation boundaries<br/>KEY FACTOR"])
+    I08(["I08<br/>Diversity of offered future scenarios"])
+    I09(["I09<br/>Availability of reflective opportunities<br/>KEY FACTOR"])
+    I10(["I10<br/>Traceability of decision processes"])
+    I11(["I11<br/>Extent of task automation"])
+  end
+  subgraph User["USER INTERPRETATION AND PARTICIPATION"]
+    direction TB
+    U01(["U01<br/>Perceived benefit of assistance"])
+    U02(["U02<br/>Level of relevant prior experience"])
+    U03(["U03<br/>Confidence in AI for the task"])
+    U04(["U04<br/>Task specific self confidence"])
+    U05(["U05<br/>Willingness to invest cognitive effort"])
+    U06(["U06<br/>Recognition of value tradeoffs"])
+    U07(["U07<br/>Perceived personal contribution"])
+    U08(["U08<br/>Preferred degree of participation"])
+    U09(["U09<br/>Ability to articulate alternatives"])
+    U10(["U10<br/>Degree of critical engagement"])
+  end
+  subgraph Outcome["EXPERIENCED OUTCOMES"]
+    direction TB
+    O01(["O01<br/>Fit of actual and<br/>preferred participation"])
+    O02(["O02<br/>Strength of psychological ownership"])
+    O03(["O03<br/>Degree of viewpoint shift"])
+    O04(["O04<br/>Capability to accomplish valued tasks"])
+    O05(["O05<br/>Practical negotiability of arrangements"])
+  end
+  C01 -->|"L01 [A;06] +/+"| C02
+  C02 -->|"L02 [A;06,04] +/-"| O05
+  C03 -->|"L03 [A;21,06] +/+"| C01
+  C03 -->|"L04 [A;21] +/-"| O05
+  C04 -->|"L05 [A;11,12] +/-"| U05
+  C05 -->|"L06 [A;04,22] +/+"| O05
+  C06 -->|"L07 [A;03,24] +/+"| U09
+  C06 -->|"L08 [A;03,04] +/+"| O05
+  I01 -->|"L09 [A;02,07] +/-"| I03
+  I01 -->|"L10 [A;05] +/+"| U01
+  I02 -->|"L11 [A;08] +/-"| O05
+  I03 -->|"L12 [A;07] -/-"| U06
+  I04 -->|"L13 [A;09] +/+"| U07
+  I04 -->|"L14 [A;07,09] +/+"| U06
+  I05 -->|"L15 [A;23,13] +/+"| O05
+  I05 -->|"L16 [A;23] +/+"| O01
+  I06 -->|"L17 [A;10] +/+"| O03
+  I07 -->|"L18 [A;13,23] +/+"| U06
+  I07 -->|"L19 [A;13,23] +/+"| O01
+  I08 -->|"L20 [A;14,19] +/+"| U09
+  I09 -->|"L21 [A;07] -/-"| U06
+  I09 -->|"L22 [A;11] +/+"| U10
+  I09 -->|"L23 [A;11] +/-"| U01
+  I10 -->|"L24 [A;12,23] +/+"| U10
+  I10 -->|"L25 [A;09,12] +/+"| U07
+  I11 -->|"L26 [A;05] +/+"| O04
+  I11 -->|"L27 [A;05,13] +/+"| U01
+  U01 -->|"L28 [A;05] +/-"| U08
+  U02 -->|"L29 [A;24] +/+"| U06
+  U03 ---|"L30 [A;12] +/-"| U10
+  U04 ---|"L31 [A;12] +/+"| U10
+  U05 -->|"L32 [A;11] +/+"| U10
+  U06 -->|"L33 [A;07] +/+"| U09
+  U07 ---|"L34 [A;09] +/+"| O02
+  U09 -->|"L35 [A;04,07] +/+"| O05
+  O05 -->|"L36 [A;04,23] +/+"| O01
+  U10 -->|"L37 [A;11,12] +/+"| O04
+  C04 -->|"L38 [A;12] +/-"| U08
+  C05 -->|"L39 [A;04,05] +/+"| O04
+  I02 -->|"L40 [A;08] +/-"| I03
+  I07 ---|"L41 [A;13,23] +/+"| I05
+  U02 ---|"L42 [A;03] +/+"| U04
+  I11 -.-|"L43 [?;05] ?"| O01
+  U08 -.-|"L44 [?;04,05] ?"| O01
+  O02 -.-|"L45 [?;09,12] ?"| O04
+  U06 -.-|"L46 [?;22,24] ?"| O05
+  I08 -.-|"L47 [?;14,19] ?"| U08
+  U03 -.-|"L48 [?;09,12] ?"| O02
+  classDef key fill:#fff1ad,stroke:#8a5900,stroke-width:3px,color:#202020;
+  classDef context fill:#f1f3f5,stroke:#92979d,color:#202020;
+  classDef outcome fill:#dceee8,stroke:#447562,color:#202020;
+  class I03,I04,I07,I09 key;
+  class C01,C02,C03,C04,C05,C06 context;
+  class O01,O02,O03,O04,O05 outcome;

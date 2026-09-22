@@ -1,0 +1,72 @@
+flowchart LR
+  subgraph context["中国成年 Z 世代参与者的具体处境"]
+    c1(["对连接式数字服务的日常依赖程度"])
+    c2(["实际替代路径的可得性"])
+    c3(["时间、社会关系与绩效压力程度"])
+  end
+
+  subgraph superapp["超级应用基础设施：生活方式"]
+    s1(["跨服务整合程度"])
+    s2(["商业引导与默认设置强度"])
+    s3(["数据、推荐与 AI memory 使用的不透明程度"])
+    s4(["拒绝、退出与修改默认设置的容易度"])
+    l1(["平台组织日常流程与社会表达的程度"])
+  end
+
+  subgraph knowledge["生成式 AI 对话：认识方式"]
+    k1(["由 AI 完成的任务推理比例"])
+    k2(["人和 AI 贡献的可见度"])
+    k3(["用户核验与修改的机会"])
+    k4(["AI 参与知识形成的程度"])
+  end
+
+  subgraph agent["新兴 AI agent：行动方式"]
+    d1(["委托给 AI agent 的决定范围"])
+    d2(["委托规则与例外的清晰度"])
+    d3(["确认、纠正与撤回的可得性"])
+    d4(["agent 在真实生活情境中代表行动的程度"])
+  end
+
+  subgraph outcomes["察觉与表达"]
+    g5(["察觉数字系统如何塑造生活、认识与行动方式的程度：Key Factor"])
+    g6(["把具体系统安排与实际生活后果联系起来的能力：可测成功因素"])
+    g7(["在具体情境中清晰说明自己希望与数字系统建立何种关系：成功因素"])
+  end
+
+  s1 -->|"+ 到 + [A;R01]"| c1
+  c2 -->|"- 到 + [A;R01]"| c1
+  c3 -->|"+ 到 + [A;R06]"| k1
+
+  s1 -->|"+ 到 + [A;R01]"| l1
+  s2 -->|"+ 到 + [A;R02]"| l1
+  s3 -->|"+ 到 + [A]"| l1
+  s4 -.->|"与平台组织的关系未知 [?]"| l1
+  l1 -.->|"与察觉的关系未知 [?]"| g5
+
+  k1 -->|"+ 到 + [A;R06]"| k4
+  k2 -->|"+ 到 + [A;R04,R06]"| k3
+  k2 -->|"+ 到 + [A;R04,R06]"| k4
+  k3 -->|"+ 到 + [A;R06]"| k4
+  k4 -.->|"与察觉的关系未知 [?]"| g5
+
+  d1 -->|"+ 到 + [A;R07]"| d4
+  d2 -.->|"与代表行动的关系未知 [?]"| d4
+  d3 -.->|"与代表行动的关系未知 [?]"| d4
+  d4 -.->|"与察觉的关系未知 [?]"| g5
+
+  g5 -->|"+ 到 + [A;R09]"| g6
+  g6 -->|"+ 到 + [A;R09,R10]"| g7
+
+  classDef context fill:#D9D9D9,stroke:#B3B3B3;
+  classDef living fill:#FFE0C2,stroke:#FF9E42;
+  classDef knowing fill:#C2E5FF,stroke:#3DADFF;
+  classDef acting fill:#DCCCFF,stroke:#874FFF;
+  classDef key fill:#FFECBD,stroke:#FFC943,stroke-width:2px;
+  classDef outcome fill:#CDF4D3,stroke:#66D575;
+
+  class c1,c2,c3 context;
+  class s1,s2,s3,s4,l1 living;
+  class k1,k2,k3,k4 knowing;
+  class d1,d2,d3,d4 acting;
+  class g5 key;
+  class g6,g7 outcome;

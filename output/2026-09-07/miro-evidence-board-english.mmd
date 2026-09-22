@@ -1,0 +1,70 @@
+flowchart TB
+  subgraph literature["Literature sources"]
+    r01["R01 Super-app infrastructure"]
+    r02["R02 Commercial steering"]
+    r03["R03 Digital-use pressure"]
+    r04["R04 Psychological ownership"]
+    r05["R05 Model viewpoints"]
+    r06["R06 AI and verification"]
+    r07["R07 AI delegation and risk"]
+    r08["R08 Automation and control"]
+    r09["R09 Reflective design"]
+    r10["R10 Situated agency"]
+  end
+
+  subgraph researcher["Researcher sources: subject to author review"]
+    position["c/i Chinese digital-platform experience"]
+    robot["h Human-robot-arm trust project"]
+    question["l Open research questions"]
+    hypothesis["m Initial hypotheses"]
+  end
+
+  subgraph planned["Sources to collect: not evidence yet"]
+    walkthrough["b/j Interface walkthroughs"]
+    fieldwork["a/n Participant task accounts and quotations"]
+    probes["k Probe pilots and feedback"]
+  end
+
+  subgraph modelGroup["Initial Reference Model"]
+    platform["Super-app factors"]
+    knowledge["Knowledge co-creation factors"]
+    delegation["Future delegation factors"]
+    agency["Task-specific agency experiences"]
+    reference["Factor relations and unknowns"]
+  end
+
+  r01 --> platform
+  r02 --> platform
+  r03 -.->|"adjacent evidence"| platform
+  r04 --> knowledge
+  r05 --> knowledge
+  r06 --> knowledge
+  r07 --> delegation
+  r08 --> delegation
+  r09 --> agency
+  r10 --> agency
+
+  position -->|"raises questions"| platform
+  position -->|"raises questions"| knowledge
+  robot -->|"informs attention"| delegation
+  question -->|"retains unknowns"| reference
+  hypothesis -->|"marks assumptions"| reference
+
+  walkthrough -->|"examines and adds"| platform
+  fieldwork -->|"tests and revises"| reference
+  probes -->|"tests and revises"| reference
+
+  classDef literature fill:#C2E5FF,stroke:#3DADFF;
+  classDef researcher fill:#FFE0C2,stroke:#FF9E42;
+  classDef planned fill:#FFECBD,stroke:#FFC943;
+  classDef model fill:#CDF4D3,stroke:#66D575;
+
+  class r01,r02,r03,r04,r05,r06,r07,r08,r09,r10 literature;
+  class position,robot,question,hypothesis researcher;
+  class walkthrough,fieldwork,probes planned;
+  class platform,knowledge,delegation,agency,reference model;
+
+  style literature fill:#EFF8FF,stroke:#3DADFF
+  style researcher fill:#FFF7ED,stroke:#FF9E42
+  style planned fill:#FFFBE6,stroke:#FFC943
+  style modelGroup fill:#EFFAF0,stroke:#66D575

@@ -1,0 +1,78 @@
+%% Deprecated: use initial-reference-model-v2-english.mmd for the clean English Miro version.
+flowchart LR
+  subgraph C["Situated context: adult Chinese Gen Z participants"]
+    C2(["C2<br/>Intensity of required<br/>digital use"])
+    C3(["C3<br/>Availability of<br/>practical alternatives"])
+    C1(["C1<br/>Extent of daily activity<br/>dependence on super-apps"])
+    C4(["C4<br/>Level of time and<br/>performance pressure"])
+  end
+
+  subgraph S["Probe 1 context: Super-apps"]
+    S1(["S1<br/>Frequency of attention-<br/>interrupting prompts"])
+    S2(["S2<br/>Intensity of commercial<br/>steering in the interface"])
+    S3(["S3<br/>Visibility of<br/>platform priorities<br/>KEY FACTOR"])
+    S4(["S4<br/>Ease of refusing or<br/>undoing interface prompts"])
+  end
+
+  subgraph K["Probe 2 context: Generative-AI knowledge work"]
+    K1(["K1<br/>Proportion of task reasoning<br/>performed by AI"])
+    K2(["K2<br/>Visibility of human<br/>and AI contributions<br/>KEY FACTOR"])
+    K3(["K3<br/>Frequency of user<br/>verification and revision"])
+    K4(["K4<br/>Strength of psychological<br/>ownership of the result"])
+    K5(["K5<br/>Degree of exposure to a<br/>model-preferred viewpoint"])
+    K6(["K6<br/>Degree of viewpoint shift<br/>after collaboration"])
+  end
+
+  subgraph A["Probe 3 context: Future AI-agent delegation scenarios"]
+    D1(["D1<br/>Breadth of decisions<br/>delegated to an AI agent"])
+    D2(["D2<br/>Clarity of<br/>delegation boundaries<br/>KEY FACTOR"])
+    D3(["D3<br/>Availability of confirmation,<br/>correction, and revocation"])
+    D4(["D4<br/>Fit between desired and<br/>actual participation"])
+  end
+
+  subgraph G["Task-specific agency experiences"]
+    G0(["G0<br/>Degree of user-directed<br/>attention allocation"])
+    G1(["G1<br/>Perceived convenience<br/>benefit"])
+    G2(["G2<br/>Ability to identify value<br/>and responsibility trade-offs"])
+    G3(["G3<br/>Ability to articulate a<br/>preferred alternative"])
+    G4(["G4<br/>Degree of user influence over<br/>task direction and outcome"])
+  end
+
+  C2 -->|"+ to +  [A;R01,R03]"| C1
+  C3 -->|"- to +  [A;R01]"| C1
+  S1 -->|"+ to -  [A;R02]"| G0
+  S2 -.->|"unknown  [?;R02]"| S3
+  S3 -->|"- to -  [A;R02,R09]"| G2
+  S4 -->|"+ to +  [A]"| G4
+  G0 ---|"possible association  [?;R10]"| G4
+
+  C4 -->|"+ to +  [A;R06]"| K1
+  G1 -.->|"unknown  [?;R06,R08]"| K1
+  K2 -->|"+ to +  [A;R04,R06]"| K3
+  K2 -->|"+ to +  [A;R04]"| K4
+  K1 -.->|"?  [?;R04,R06]"| K4
+  K3 -->|"+ to +  [A;R06,R10]"| G4
+  K5 -->|"+ to +  [A;R05]"| K6
+
+  G1 -.->|"unknown  [?;R07,R08]"| D1
+  D1 -.->|"?  [?;R07,R08]"| D4
+  D2 -->|"+ to +  [A;R07]"| G2
+  D3 -->|"+ to +  [A;R07,R08]"| D4
+  D3 -->|"+ to +  [A;R07,R08]"| G4
+
+  G2 -->|"+ to +  [A;R09]"| G3
+  G3 -->|"+ to +  [A;R10]"| G4
+
+  classDef context fill:#eef3f8,stroke:#526777,color:#17212b,stroke-width:1px;
+  classDef superapp fill:#fff1e6,stroke:#bf6b32,color:#402312,stroke-width:1px;
+  classDef knowledge fill:#eaf5ff,stroke:#3979a9,color:#143147,stroke-width:1px;
+  classDef agent fill:#f1edff,stroke:#7358b6,color:#2b2144,stroke-width:1px;
+  classDef outcome fill:#eaf8ed,stroke:#3f8b54,color:#17351f,stroke-width:1px;
+  classDef key fill:#ffe680,stroke:#8a6900,color:#2c2300,stroke-width:4px;
+
+  class C1,C2,C3,C4 context;
+  class S1,S2,S4 superapp;
+  class K1,K3,K4,K5,K6 knowledge;
+  class D1,D3,D4 agent;
+  class G0,G1,G2,G3,G4 outcome;
+  class S3,K2,D2 key;

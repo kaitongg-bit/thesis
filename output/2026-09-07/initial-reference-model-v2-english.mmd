@@ -1,0 +1,72 @@
+flowchart LR
+  subgraph context["Situated context: adult Chinese Gen Z participants"]
+    c1(["Extent of daily dependence on connected digital services"])
+    c2(["Availability of practical alternatives"])
+    c3(["Level of time, social, and performance pressure"])
+  end
+
+  subgraph superapp["Super-app infrastructure: ways of living"]
+    s1(["Extent of cross-service integration"])
+    s2(["Intensity of commercial steering and default settings"])
+    s3(["Opacity of data, recommendation, and AI-memory use"])
+    s4(["Ease of refusal, exit, and changing defaults"])
+    l1(["Degree of platform organisation of everyday routines and social expression"])
+  end
+
+  subgraph knowledge["Generative-AI chat: ways of knowing"]
+    k1(["Proportion of task reasoning performed by AI"])
+    k2(["Visibility of human and AI contributions"])
+    k3(["Opportunity for user verification and revision"])
+    k4(["Degree of AI participation in knowledge formation"])
+  end
+
+  subgraph agent["Emerging AI agents: ways of acting"]
+    d1(["Breadth of decisions delegated to an AI agent"])
+    d2(["Clarity of delegation rules and exceptions"])
+    d3(["Availability of confirmation, correction, and revocation"])
+    d4(["Degree of agent representation in lived contexts"])
+  end
+
+  subgraph outcomes["Recognition and articulation"]
+    g5(["Degree of recognition of how digital systems shape ways of living, knowing, and acting: Key Factor"])
+    g6(["Ability to connect a concrete system arrangement to a lived consequence: Measurable Success Factor"])
+    g7(["Clarity of a participant-defined preferred relationship with a digital system in a specific context: Success Factor"])
+  end
+
+  s1 -->|"+ to + [A;R01]"| c1
+  c2 -->|"- to + [A;R01]"| c1
+  c3 -->|"+ to + [A;R06]"| k1
+
+  s1 -->|"+ to + [A;R01]"| l1
+  s2 -->|"+ to + [A;R02]"| l1
+  s3 -->|"+ to + [A]"| l1
+  s4 -.->|"relationship to platform organisation unknown [?]"| l1
+  l1 -.->|"relationship to recognition unknown [?]"| g5
+
+  k1 -->|"+ to + [A;R06]"| k4
+  k2 -->|"+ to + [A;R04,R06]"| k3
+  k2 -->|"+ to + [A;R04,R06]"| k4
+  k3 -->|"+ to + [A;R06]"| k4
+  k4 -.->|"relationship to recognition unknown [?]"| g5
+
+  d1 -->|"+ to + [A;R07]"| d4
+  d2 -.->|"relationship to representation unknown [?]"| d4
+  d3 -.->|"relationship to representation unknown [?]"| d4
+  d4 -.->|"relationship to recognition unknown [?]"| g5
+
+  g5 -->|"+ to + [A;R09]"| g6
+  g6 -->|"+ to + [A;R09,R10]"| g7
+
+  classDef context fill:#D9D9D9,stroke:#B3B3B3;
+  classDef living fill:#FFE0C2,stroke:#FF9E42;
+  classDef knowing fill:#C2E5FF,stroke:#3DADFF;
+  classDef acting fill:#DCCCFF,stroke:#874FFF;
+  classDef key fill:#FFECBD,stroke:#FFC943,stroke-width:2px;
+  classDef outcome fill:#CDF4D3,stroke:#66D575;
+
+  class c1,c2,c3 context;
+  class s1,s2,s3,s4,l1 living;
+  class k1,k2,k3,k4 knowing;
+  class d1,d2,d3,d4 acting;
+  class g5 key;
+  class g6,g7 outcome;

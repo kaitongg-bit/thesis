@@ -1,0 +1,1233 @@
+{
+  "title": "Initial Reference Model: Negotiating Digital World-Making",
+  "date": "2026-09-07",
+  "nodes": [
+    {
+      "id": "C01",
+      "layer": "Context",
+      "label": "Degree of platform dependence",
+      "zh": "平台依赖程度",
+      "assessment": "完成日常事务需要该平台的范围；以具体服务清单和替代路径评估",
+      "concept_sources": [
+        "R06"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "C02",
+      "layer": "Context",
+      "label": "Cost of alternative arrangements",
+      "zh": "替代安排的成本",
+      "assessment": "切换服务涉及的金钱、时间、关系与可达性成本；分类记录而不强制合成分数",
+      "concept_sources": [
+        "R06",
+        "R04"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "C03",
+      "layer": "Context",
+      "label": "Intensity of required digital use",
+      "zh": "学校或工作要求使用的强度",
+      "assessment": "被要求使用的任务频次、后果及拒绝空间",
+      "concept_sources": [
+        "R21"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "C04",
+      "layer": "Context",
+      "label": "Degree of time pressure",
+      "zh": "时间压力程度",
+      "assessment": "具体任务的截止时间、可用时间与参与者描述",
+      "concept_sources": [
+        "R11",
+        "R12"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "C05",
+      "layer": "Context",
+      "label": "Access to practical resources",
+      "zh": "可用实践资源的程度",
+      "assessment": "设备、付费服务、知识支持及无障碍条件；以相关案例记录",
+      "concept_sources": [
+        "R04",
+        "R22"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "C06",
+      "layer": "Context",
+      "label": "Availability of social negotiation",
+      "zh": "与他人讨论和协商的机会",
+      "assessment": "能与朋友、家人、同事讨论／调整安排的机会及对方角色",
+      "concept_sources": [
+        "R03",
+        "R04",
+        "R24"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I01",
+      "layer": "Interface",
+      "label": "Salience of efficiency and outcomes",
+      "zh": "效率与结果的显著程度",
+      "assessment": "文案、排序、奖励是否优先呈现速度／完成量；记录可见证据",
+      "concept_sources": [
+        "R02",
+        "R07"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I02",
+      "layer": "Interface",
+      "label": "Intensity of commercial steering",
+      "zh": "商业引导的强度",
+      "assessment": "默认选项、阻碍取消、诱导性文案等具体机制；复杂本身不算操控",
+      "concept_sources": [
+        "R08"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I03",
+      "layer": "Interface",
+      "label": "Visibility of selection criteria",
+      "zh": "选择标准的可见程度",
+      "assessment": "能否看到推荐、排序和服务选择的依据及其限制",
+      "concept_sources": [
+        "R07",
+        "R15"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": true,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I04",
+      "layer": "Interface",
+      "label": "Visibility of human AI contributions",
+      "zh": "人机贡献的可见程度",
+      "assessment": "能否区分用户提出、系统建议、共同修改的内容",
+      "concept_sources": [
+        "R09",
+        "R12"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": true,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I05",
+      "layer": "Interface",
+      "label": "Availability of correction and revocation",
+      "zh": "纠正和撤回的可获得性",
+      "assessment": "是否能修改、拒绝、暂停、撤回；实际可操作而不仅有说明",
+      "concept_sources": [
+        "R23",
+        "R13"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I06",
+      "layer": "Interface",
+      "label": "Exposure to a model viewpoint",
+      "zh": "接触模型特定立场的程度",
+      "assessment": "模型某立场出现的频次与偏向；使用实际输出记录",
+      "concept_sources": [
+        "R10"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I07",
+      "layer": "Interface",
+      "label": "Clarity of delegation boundaries",
+      "zh": "委托边界的清晰程度",
+      "assessment": "任务范围、授权期限、须确认事项和影响对象是否明确",
+      "concept_sources": [
+        "R13",
+        "R23"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": true,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I08",
+      "layer": "Interface",
+      "label": "Diversity of offered future scenarios",
+      "zh": "界面提供的未来情境多样性",
+      "assessment": "是否提供不同目标和生活安排，而不仅是同一效率目标的变体",
+      "concept_sources": [
+        "R14",
+        "R19"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I09",
+      "layer": "Interface",
+      "label": "Availability of reflective opportunities",
+      "zh": "反思机会的可获得性",
+      "assessment": "比较、解释理由、修改规则和讨论的机会；另记是否被使用及负担",
+      "concept_sources": [
+        "R07",
+        "R11"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": true,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I10",
+      "layer": "Interface",
+      "label": "Traceability of decision processes",
+      "zh": "决策过程的可追溯程度",
+      "assessment": "证据来源、用户操作与修订历史可否重建；不是要求展示模型隐藏思维链",
+      "concept_sources": [
+        "R12",
+        "R23"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "I11",
+      "layer": "Interface",
+      "label": "Extent of task automation",
+      "zh": "任务自动化程度",
+      "assessment": "系统独立完成的行动及判断范围；按任务描述",
+      "concept_sources": [
+        "R05",
+        "R13"
+      ],
+      "source_routes": [
+        "b",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U01",
+      "layer": "User",
+      "label": "Perceived benefit of assistance",
+      "zh": "感知协助收益的程度",
+      "assessment": "节省时间、降低负担、提高可达性等由参与者解释",
+      "concept_sources": [
+        "R05",
+        "R12"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U02",
+      "layer": "User",
+      "label": "Level of relevant prior experience",
+      "zh": "相关先前经验的水平",
+      "assessment": "使用及辨识同类机制的经历；不能仅用使用年数替代理解",
+      "concept_sources": [
+        "R24"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U03",
+      "layer": "User",
+      "label": "Confidence in AI for the task",
+      "zh": "对 AI 完成该任务的信心",
+      "assessment": "针对当前任务解释信心依据；不等同信心与真实准确率",
+      "concept_sources": [
+        "R12"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U04",
+      "layer": "User",
+      "label": "Task specific self confidence",
+      "zh": "任务相关自信程度",
+      "assessment": "参与者认为自己能判断和完成任务的程度及依据",
+      "concept_sources": [
+        "R12",
+        "R03"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U05",
+      "layer": "User",
+      "label": "Willingness to invest cognitive effort",
+      "zh": "投入思考的意愿",
+      "assessment": "是否愿意核验／比较及其理由；区分意愿和客观可用时间",
+      "concept_sources": [
+        "R11"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U06",
+      "layer": "User",
+      "label": "Recognition of value tradeoffs",
+      "zh": "识别价值取舍的程度",
+      "assessment": "能否解释获益、成本、受影响者与替代解释",
+      "concept_sources": [
+        "R07",
+        "R24"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U07",
+      "layer": "User",
+      "label": "Perceived personal contribution",
+      "zh": "感知个人贡献的程度",
+      "assessment": "自述提出、判断、编辑与承担责任的部分；与行为记录对照",
+      "concept_sources": [
+        "R09"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U08",
+      "layer": "User",
+      "label": "Preferred degree of participation",
+      "zh": "期望参与程度",
+      "assessment": "针对具体任务与节点的委托／参与偏好；不作为好坏等级",
+      "concept_sources": [
+        "R04",
+        "R05"
+      ],
+      "source_routes": [
+        "a",
+        "d",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U09",
+      "layer": "User",
+      "label": "Ability to articulate alternatives",
+      "zh": "表达替代安排的能力",
+      "assessment": "能否提出可理解的不同规则、目标、关系或拒绝方案",
+      "concept_sources": [
+        "R02",
+        "R07",
+        "R19"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "U10",
+      "layer": "User",
+      "label": "Degree of critical engagement",
+      "zh": "实际批判性投入程度",
+      "assessment": "核验来源、比较证据、修改目标或反驳系统的具体行为",
+      "concept_sources": [
+        "R11",
+        "R12"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "O01",
+      "layer": "Outcome",
+      "label": "Fit of actual and preferred participation",
+      "zh": "实际参与与期望参与的匹配程度",
+      "assessment": "将某次真实参与路径与该情境中的期望比较；不是自主的全部定义",
+      "concept_sources": [
+        "R04",
+        "R05"
+      ],
+      "source_routes": [
+        "a",
+        "d",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "O02",
+      "layer": "Outcome",
+      "label": "Strength of psychological ownership",
+      "zh": "心理归属感的强度",
+      "assessment": "对成果属于自己的体验及原因；不等同知识测试或法律作者权",
+      "concept_sources": [
+        "R09"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "O03",
+      "layer": "Outcome",
+      "label": "Degree of viewpoint shift",
+      "zh": "观点偏移的程度",
+      "assessment": "比较任务前后表达；方向是否不受欢迎需另问，不能预设",
+      "concept_sources": [
+        "R10"
+      ],
+      "source_routes": [
+        "a",
+        "e",
+        "j"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "O04",
+      "layer": "Outcome",
+      "label": "Capability to accomplish valued tasks",
+      "zh": "完成所重视任务的能力",
+      "assessment": "是否完成参与者重视的任务、完成质量及所需支持",
+      "concept_sources": [
+        "R05"
+      ],
+      "source_routes": [
+        "a",
+        "b",
+        "e"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    },
+    {
+      "id": "O05",
+      "layer": "Outcome",
+      "label": "Practical negotiability of arrangements",
+      "zh": "实际协商和改变安排的可能程度",
+      "assessment": "在现实约束下能否提出、实施及撤回安排；记录可行／部分可行／受阻及理由",
+      "concept_sources": [
+        "R04",
+        "R22",
+        "R23"
+      ],
+      "source_routes": [
+        "a",
+        "d",
+        "n"
+      ],
+      "key": false,
+      "current_value": "not yet assessed"
+    }
+  ],
+  "edges": [
+    {
+      "id": "L01",
+      "source": "C01",
+      "target": "C02",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R06"
+      ],
+      "kind": "arrow",
+      "statement": "平台依赖较高时，替代安排的成本可能较高。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L02",
+      "source": "C02",
+      "target": "O05",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R06",
+        "R04"
+      ],
+      "kind": "arrow",
+      "statement": "替代成本高时，实际改变安排的空间可能较低。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L03",
+      "source": "C03",
+      "target": "C01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R21",
+        "R06"
+      ],
+      "kind": "arrow",
+      "statement": "组织要求较强时，对指定平台的依赖可能更高。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L04",
+      "source": "C03",
+      "target": "O05",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R21"
+      ],
+      "kind": "arrow",
+      "statement": "组织要求较强时，个人改变安排的空间可能更低。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L05",
+      "source": "C04",
+      "target": "U05",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R11",
+        "R12"
+      ],
+      "kind": "arrow",
+      "statement": "时间紧张时，投入额外思考的意愿可能较低。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L06",
+      "source": "C05",
+      "target": "O05",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R04",
+        "R22"
+      ],
+      "kind": "arrow",
+      "statement": "资源可得较高时，实际协商或改变安排可能更可行。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L07",
+      "source": "C06",
+      "target": "U09",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R03",
+        "R24"
+      ],
+      "kind": "arrow",
+      "statement": "讨论与协商机会较多时，表达其他安排的能力可能较强。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L08",
+      "source": "C06",
+      "target": "O05",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R03",
+        "R04"
+      ],
+      "kind": "arrow",
+      "statement": "可与受影响他人协商时，改变共同安排可能更可行。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L09",
+      "source": "I01",
+      "target": "I03",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R02",
+        "R07"
+      ],
+      "kind": "arrow",
+      "statement": "强调效率和结果时，选择标准可能被弱化；不是所有高效界面如此。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L10",
+      "source": "I01",
+      "target": "U01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R05"
+      ],
+      "kind": "arrow",
+      "statement": "效率和结果的突出呈现可能增强感知收益；也可能只是宣传。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L11",
+      "source": "I02",
+      "target": "O05",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R08"
+      ],
+      "kind": "arrow",
+      "statement": "商业引导特别是退出障碍较强时，调整安排可能更难。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L12",
+      "source": "I03",
+      "target": "U06",
+      "values": "-/-",
+      "status": "A",
+      "refs": [
+        "R07"
+      ],
+      "kind": "arrow",
+      "statement": "选择标准可见性较低时，识别相关取舍可能较难。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L13",
+      "source": "I04",
+      "target": "U07",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R09"
+      ],
+      "kind": "arrow",
+      "statement": "人机贡献更可辨识时，参与者可能更能确认自己的投入；方向依内容而异。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L14",
+      "source": "I04",
+      "target": "U06",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R07",
+        "R09"
+      ],
+      "kind": "arrow",
+      "statement": "分工更可见时，参与者可能更能解释相关取舍。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L15",
+      "source": "I05",
+      "target": "O05",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R23",
+        "R13"
+      ],
+      "kind": "arrow",
+      "statement": "纠正撤回选项真正可用时，实际协商空间可能较高。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L16",
+      "source": "I05",
+      "target": "O01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R23"
+      ],
+      "kind": "arrow",
+      "statement": "可修改安排时，实际参与更可能接近期望；仍受资源约束。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L17",
+      "source": "I06",
+      "target": "O03",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R10"
+      ],
+      "kind": "arrow",
+      "statement": "接触倾向性模型建议较多，可能引起较大观点偏移；迁移实验结论。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L18",
+      "source": "I07",
+      "target": "U06",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R13",
+        "R23"
+      ],
+      "kind": "arrow",
+      "statement": "委托边界清楚时，更容易识别责任与价值取舍。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L19",
+      "source": "I07",
+      "target": "O01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R13",
+        "R23"
+      ],
+      "kind": "arrow",
+      "statement": "边界清楚时，实际参与可能更符合情境期望；需看能否改变。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L20",
+      "source": "I08",
+      "target": "U09",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R14",
+        "R19"
+      ],
+      "kind": "arrow",
+      "statement": "提供不同未来安排可能帮助表达其他可能；也可能限制想象。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L21",
+      "source": "I09",
+      "target": "U06",
+      "values": "-/-",
+      "status": "A",
+      "refs": [
+        "R07"
+      ],
+      "kind": "arrow",
+      "statement": "缺少反思机会时，某些取舍较难进入讨论。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L22",
+      "source": "I09",
+      "target": "U10",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R11"
+      ],
+      "kind": "arrow",
+      "statement": "反思环节可能增加核验与比较；并非强制摩擦越多越好。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L23",
+      "source": "I09",
+      "target": "U01",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R11"
+      ],
+      "kind": "arrow",
+      "statement": "反思环节增多可能降低便利感，体现介入的代价。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L24",
+      "source": "I10",
+      "target": "U10",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R12",
+        "R23"
+      ],
+      "kind": "arrow",
+      "statement": "可追溯的来源和修订记录可能支持具体核验。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L25",
+      "source": "I10",
+      "target": "U07",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R09",
+        "R12"
+      ],
+      "kind": "arrow",
+      "statement": "修订记录较清楚时，个人贡献可能更容易被识别。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L26",
+      "source": "I11",
+      "target": "O04",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R05"
+      ],
+      "kind": "arrow",
+      "statement": "任务适配时，高自动化可能扩展完成任务的能力。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L27",
+      "source": "I11",
+      "target": "U01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R05",
+        "R13"
+      ],
+      "kind": "arrow",
+      "statement": "自动完成相关任务可能提高感知收益；错误与监督成本需另记。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L28",
+      "source": "U01",
+      "target": "U08",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R05"
+      ],
+      "kind": "arrow",
+      "statement": "感知收益较高时，可能偏好较少直接参与；也可能更愿参与更高层判断。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L29",
+      "source": "U02",
+      "target": "U06",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R24"
+      ],
+      "kind": "arrow",
+      "statement": "相关经验可能支持识别取舍，亦可能形成未经核验的经验解释。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L30",
+      "source": "U03",
+      "target": "U10",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R12"
+      ],
+      "kind": "association",
+      "statement": "AI 信心与较少批判性投入的关联；不画因果箭头。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L31",
+      "source": "U04",
+      "target": "U10",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R12"
+      ],
+      "kind": "association",
+      "statement": "任务自信与更多批判性投入的关联；不画因果箭头。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L32",
+      "source": "U05",
+      "target": "U10",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R11"
+      ],
+      "kind": "arrow",
+      "statement": "投入思考的意愿可能影响对反思机制的使用。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L33",
+      "source": "U06",
+      "target": "U09",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R07"
+      ],
+      "kind": "arrow",
+      "statement": "辨认出取舍可能帮助说出其他安排。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L34",
+      "source": "U07",
+      "target": "O02",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R09"
+      ],
+      "kind": "association",
+      "statement": "感知贡献与心理归属的可能关联；不用相关性替代因果性。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L35",
+      "source": "U09",
+      "target": "O05",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R04",
+        "R07"
+      ],
+      "kind": "arrow",
+      "statement": "能表达替代安排可能是协商资源，但不足以改变制度限制。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L36",
+      "source": "O05",
+      "target": "O01",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R04",
+        "R23"
+      ],
+      "kind": "arrow",
+      "statement": "安排可协商时，参与匹配可能较高；偏好与公共影响仍需反思。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L37",
+      "source": "U10",
+      "target": "O04",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R11",
+        "R12"
+      ],
+      "kind": "arrow",
+      "statement": "相关核验投入可能帮助完成所重视任务；也可能占用时间。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L38",
+      "source": "C04",
+      "target": "U08",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R12"
+      ],
+      "kind": "arrow",
+      "statement": "时间压力较高时可能更偏好委托；方向随任务而变。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L39",
+      "source": "C05",
+      "target": "O04",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R04",
+        "R05"
+      ],
+      "kind": "arrow",
+      "statement": "资源可用性可能支持完成所重视的任务。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L40",
+      "source": "I02",
+      "target": "I03",
+      "values": "+/-",
+      "status": "A",
+      "refs": [
+        "R08"
+      ],
+      "kind": "arrow",
+      "statement": "特定隐蔽商业引导可能降低选择依据的可见性。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L41",
+      "source": "I07",
+      "target": "I05",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R13",
+        "R23"
+      ],
+      "kind": "association",
+      "statement": "边界清楚与可撤回可能同时出现，但可只具备其中一个。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L42",
+      "source": "U02",
+      "target": "U04",
+      "values": "+/+",
+      "status": "A",
+      "refs": [
+        "R03"
+      ],
+      "kind": "association",
+      "statement": "先前经验可能与任务自信有关，并非等同真实能力。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L43",
+      "source": "I11",
+      "target": "O01",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R05"
+      ],
+      "kind": "unknown",
+      "statement": "自动化与参与匹配没有预定方向，不能画成技术演进必然失控。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L44",
+      "source": "U08",
+      "target": "O01",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R04",
+        "R05"
+      ],
+      "kind": "unknown",
+      "statement": "偏好参与较高不代表匹配较高；须与实际参与对照。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L45",
+      "source": "O02",
+      "target": "O04",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R09",
+        "R12"
+      ],
+      "kind": "unknown",
+      "statement": "觉得成果属于自己与实际理解／完成能力的关系需调查。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L46",
+      "source": "U06",
+      "target": "O05",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R22",
+        "R24"
+      ],
+      "kind": "unknown",
+      "statement": "已识别问题是否足以改变安排？结构条件可能阻断。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L47",
+      "source": "I08",
+      "target": "U08",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R14",
+        "R19"
+      ],
+      "kind": "unknown",
+      "statement": "不同未来叙事怎样改变参与偏好，方向与持续性未知。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    },
+    {
+      "id": "L48",
+      "source": "U03",
+      "target": "O02",
+      "values": "?",
+      "status": "?",
+      "refs": [
+        "R09",
+        "R12"
+      ],
+      "kind": "unknown",
+      "statement": "信任 AI 与成果归属感的关系未知，避免跨文献拼接。",
+      "scope": "Hypothesis for proposed study; cited source has its own population and task."
+    }
+  ],
+  "key_factors": [
+    "I03",
+    "I04",
+    "I07",
+    "I09"
+  ],
+  "evidence_note": "All local values are unassessed. A = proposed or transferred relationship, not an established finding about Chinese Gen Z. ? = relation or direction unknown."
+}

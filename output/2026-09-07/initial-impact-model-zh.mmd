@@ -1,0 +1,52 @@
+flowchart LR
+  subgraph probes["Trojan Horse 设计探针"]
+    p1["平台优先级模拟器"]
+    p2["人机分工比较游戏"]
+    p3["未来委托边界配置器"]
+  end
+
+  subgraph keyFactors["现有情境中的 Key Factors"]
+    k1["平台优先级可见度"]
+    k2["人机贡献可见度"]
+    k3["委托边界清晰度"]
+  end
+
+  subgraph immediate["体验后的可讨论材料"]
+    i1["价值与责任取舍叙述"]
+    i2["贡献、理解与归属叙述"]
+    i3["偏好参与与委托边界叙述"]
+  end
+
+  debrief["开放讨论与完整说明"]
+  alternatives["参与者提出的异议与替代方案"]
+  contribution["修订模型与注释式 probe portfolio"]
+
+  p1 -->|"目标：更高 [A]"| k1
+  p2 -->|"目标：更高 [A]"| k2
+  p3 -->|"目标：更高 [A]"| k3
+
+  k1 -->|"更高时可能引出 [A]"| i1
+  k2 -->|"更高时可能引出 [A]"| i2
+  k3 -->|"更高时可能引出 [A]"| i3
+
+  i1 -->|"带入讨论 [A]"| debrief
+  i2 -->|"带入讨论 [A]"| debrief
+  i3 -->|"带入讨论 [A]"| debrief
+  debrief -->|"允许挑战 [A]"| alternatives
+  alternatives -->|"修订 [A]"| contribution
+
+  classDef probe fill:#FFE0C2,stroke:#FF9E42;
+  classDef key fill:#FFECBD,stroke:#FFC943;
+  classDef material fill:#C2E5FF,stroke:#3DADFF;
+  classDef dialogue fill:#DCCCFF,stroke:#874FFF;
+  classDef outcome fill:#CDF4D3,stroke:#66D575;
+
+  class p1,p2,p3 probe;
+  class k1,k2,k3 key;
+  class i1,i2,i3 material;
+  class debrief,alternatives dialogue;
+  class contribution outcome;
+
+  style probes fill:#FFF7ED,stroke:#FF9E42
+  style keyFactors fill:#FFFBE6,stroke:#FFC943
+  style immediate fill:#EFF8FF,stroke:#3DADFF

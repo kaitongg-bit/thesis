@@ -1,0 +1,35 @@
+flowchart LR
+  subgraph supports["Three proposed supports"]
+    h1{{"Support recognition of super-app infrastructural shaping through perspective shift: Evil PM Simulator"}}
+    h2{{"Support reflection on AI-mediated knowledge formation through dependency disruption: Epistemic Illusion"}}
+    h3{{"Support reflection on agentic delegation through edge-case deployment: Cyber-Utopia Persona Quiz"}}
+  end
+
+  subgraph immediate["Probe-specific anticipated effects"]
+    i1(["Recognition of platform organisation of everyday routines"])
+    i2(["Recognition of AI participation in knowledge formation"])
+    i3(["Recognition of limits of pre-specified delegation in lived contexts"])
+  end
+
+  key(["Recognition of how digital systems shape ways of living, knowing, and acting (Key Factor)"])
+  measurable(["Ability to connect a concrete system arrangement to a lived consequence (Measurable Success Factor)"])
+  success(["Clarity of a participant-defined preferred relationship with a digital system in a specific context (Success Factor)"])
+
+  h1 -->|"+ [A]"| i1
+  h2 -->|"+ [A]"| i2
+  h3 -->|"+ [A]"| i3
+  i1 -->|"+ [A]"| key
+  i2 -->|"+ [A]"| key
+  i3 -->|"+ [A]"| key
+  key -->|"+ [A]"| measurable
+  measurable -->|"+ [A]"| success
+
+  classDef support fill:#FFE0C2,stroke:#FF9E42,stroke-width:2px;
+  classDef immediate fill:#C2E5FF,stroke:#3DADFF;
+  classDef key fill:#FFECBD,stroke:#FFC943,stroke-width:2px;
+  classDef factor fill:#CDF4D3,stroke:#66D575;
+
+  class h1,h2,h3 support;
+  class i1,i2,i3 immediate;
+  class key key;
+  class measurable,success factor;

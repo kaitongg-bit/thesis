@@ -1,0 +1,5 @@
+# Rebuildable preview files; the source documents and final deliverables are tracked.
+tmp/
+
+# macOS Finder metadata
+.DS_Store

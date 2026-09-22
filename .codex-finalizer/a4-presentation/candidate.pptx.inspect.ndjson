@@ -1,0 +1,141 @@
+{"kind":"deck","id":"pr/yizijk","name":"Deck"}
+{"kind":"layout","layoutId":"ca3c06d8-df09-4581-9c34-e1a60341d968","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"39a0a269-83ec-46a6-a84e-bceddbe40b84","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/vxwszc","slide":1,"title":"Human-System Roles","textShapes":6}
+{"kind":"shape","id":"sh/nups7u1c","slide":1,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/ovy9gz2x","slide":1,"text":"Human-System Roles\nin the Digital Lives\nof Chinese Gen Z","textPreview":"Human-System Roles | in the Digital Lives | of Chinese Gen Z","textChars":56,"textLines":3,"bbox":[88,104,780,265]}
+{"kind":"textbox","id":"sh/9w7a94ji","slide":1,"text":"Research question presentation","textPreview":"Research question presentation","textChars":30,"textLines":1,"bbox":[92,400,500,40]}
+{"kind":"shape","id":"sh/axgri9k3","slide":1,"bbox":[92,464,500,0]}
+{"kind":"textbox","id":"sh/bypsbu1o","slide":1,"text":"SUPER APPS","textPreview":"SUPER APPS","textChars":10,"textLines":1,"bbox":[92,493,170,30]}
+{"kind":"textbox","id":"sh/wzytkz2t","slide":1,"text":"AI CHAT","textPreview":"AI CHAT","textChars":7,"textLines":1,"bbox":[286,493,130,30]}
+{"kind":"textbox","id":"sh/x0rad4je","slide":1,"text":"AI AGENTS","textPreview":"AI AGENTS","textChars":9,"textLines":1,"bbox":[437,493,150,30]}
+{"kind":"textbox","id":"sh/yl0bm9kz","slide":1,"text":"MSCD Pre-Thesis   Fall 2026","textPreview":"MSCD Pre-Thesis   Fall 2026","textChars":27,"textLines":1,"bbox":[92,624,430,30]}
+{"kind":"shape","id":"sh/jm9sfe1k","slide":1,"bbox":[948,160,176,176]}
+{"kind":"shape","id":"sh/fixk325o","slide":1,"bbox":[1008,286,136,136]}
+{"kind":"shape","id":"sh/eho3ax43","slide":1,"bbox":[900,348,112,112]}
+{"kind":"notes","id":"nt/vxwszc","slide":1,"text":"About 45 seconds.\n\nMy topic began with a simple feeling. I often think of an app as a tool that I choose to use. But after using the same systems every day, I also learn their rules and start to treat their way of organizing life as normal. I want to understand this relationship more clearly. I focus on adult Chinese Gen Z because this group grew up with rapidly changing platforms and is now meeting generative AI and AI agents as adults. My project asks how people understand their own role when digital systems become more involved in daily routines, thinking, and action."}
+{"kind":"slide","id":"sl/nec7jm","slide":2,"title":"The three-step research structure","textShapes":11}
+{"kind":"textbox","id":"sh/cn69cfqp","slide":2,"text":"The three-step research structure","textPreview":"The three-step research structure","textChars":33,"textLines":1,"bbox":[64,42,1050,48]}
+{"kind":"textbox","id":"sh/bmx8jap4","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/alora58j","slide":2,"bbox":[64,104,1152,0]}
+{"kind":"shape","id":"sh/lszqpk76","slide":2,"bbox":[84,148,1112,126]}
+{"kind":"textbox","id":"sh/kr69gfq1","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[112,173,92,62]}
+{"kind":"textbox","id":"sh/zqx8napg","slide":2,"text":"TOPIC","textPreview":"TOPIC","textChars":5,"textLines":1,"bbox":[226,171,230,34]}
+{"kind":"textbox","id":"sh/yporep8v","slide":2,"text":"Adult Chinese Gen Z and their relationship with digital systems","textPreview":"Adult Chinese Gen Z and their relationship with digital systems","textChars":63,"textLines":1,"bbox":[226,203,900,58]}
+{"kind":"shape","id":"sh/9gzat47i","slide":2,"bbox":[84,316,1112,126]}
+{"kind":"textbox","id":"sh/8fq9kzqx","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[112,341,92,62]}
+{"kind":"textbox","id":"sh/mt4fihkv","slide":2,"text":"UNKNOWN","textPreview":"UNKNOWN","textChars":7,"textLines":1,"bbox":[226,339,230,34]}
+{"kind":"textbox","id":"sh/7udgrmlg","slide":2,"text":"How people define their role when systems shape routines, join knowledge work, or act for them","textPreview":"How people define their role when systems shape routines, join knowledge work, or act for them","textChars":94,"textLines":1,"bbox":[226,371,900,58]}
+{"kind":"shape","id":"sh/8vmxkr21","slide":2,"bbox":[84,484,1112,126]}
+{"kind":"textbox","id":"sh/9wfytw36","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[112,509,92,62]}
+{"kind":"textbox","id":"sh/uhofm1kr","slide":2,"text":"SIGNIFICANCE","textPreview":"SIGNIFICANCE","textChars":12,"textLines":1,"bbox":[226,507,230,34]}
+{"kind":"textbox","id":"sh/vixgv6lc","slide":2,"text":"How role expectations change across different forms of system involvement","textPreview":"How role expectations change across different forms of system involvement","textChars":73,"textLines":1,"bbox":[226,539,900,58]}
+{"kind":"notes","id":"nt/nec7jm","slide":2,"text":"About 55 seconds.\n\nI used the three-step structure from The Craft of Research. First, I name the topic. I am studying adult Chinese Gen Z and digital systems. Second, I identify what I do not yet understand. I want to know how people define their own role when a system becomes involved in different ways. Third, I explain why the question matters to an audience. The larger issue is whether our expectations of a human role change when a system shapes a routine, joins knowledge work, or acts for a person. This step prevents the project from becoming only a collection of observations about apps.\n\nSource: Booth, Colomb, Williams, Bizup, and FitzGerald, The Craft of Research, 5th ed., Chapters 3 and 4."}
+{"kind":"slide","id":"sl/7n40l7","slide":3,"title":"MAIN RESEARCH QUESTION","textShapes":6}
+{"kind":"textbox","id":"sh/y10fi103","slide":3,"text":"MAIN RESEARCH QUESTION","textPreview":"MAIN RESEARCH QUESTION","textChars":22,"textLines":1,"bbox":[72,48,560,36]}
+{"kind":"textbox","id":"sh/l4rytwju","slide":3,"text":"How do adult Chinese Gen Z understand and negotiate the roles of people and digital systems when super apps shape everyday routines, generative-AI chat participates in knowledge work, and emerging AI agents act on a user’s behalf?","textPreview":"How do adult Chinese Gen Z understand and negotiate the roles of people and digital systems when super apps shape everyday routines, gene...","textChars":230,"textLines":1,"bbox":[72,126,1120,360]}
+{"kind":"shape","id":"sh/k3ixkri9","slide":3,"bbox":[72,526,1120,0]}
+{"kind":"textbox","id":"sh/bypgnm1c","slide":3,"text":"UNDERSTAND","textPreview":"UNDERSTAND","textChars":10,"textLines":1,"bbox":[72,560,200,32]}
+{"kind":"textbox","id":"sh/axgfeh07","slide":3,"text":"How participants describe the current roles","textPreview":"How participants describe the current roles","textChars":43,"textLines":1,"bbox":[72,596,430,48]}
+{"kind":"textbox","id":"sh/x0rypwji","slide":3,"text":"NEGOTIATE","textPreview":"NEGOTIATE","textChars":9,"textLines":1,"bbox":[646,560,200,32]}
+{"kind":"textbox","id":"sh/czixgrix","slide":3,"text":"How they accept, question, resist, or revise them","textPreview":"How they accept, question, resist, or revise them","textChars":49,"textLines":1,"bbox":[646,596,500,48]}
+{"kind":"notes","id":"nt/7n40l7","slide":3,"text":"About 60 seconds.\n\nThis is my current research question. The word understand refers to how participants describe the role that already exists. What do they think the system is doing, and what do they think they are doing? The word negotiate is broader than a formal negotiation. It includes accepting a role, questioning it, resisting it, or changing it. I am not starting with the claim that technology always reduces agency. A participant may welcome assistance in one situation and reject it in another. The research question leaves space for useful dependence, discomfort, mixed feelings, and counterexamples."}
+{"kind":"slide","id":"sl/g4mide","slide":4,"title":"Three forms of system involvement","textShapes":19}
+{"kind":"textbox","id":"sh/gnidw7yh","slide":4,"text":"Three forms of system involvement","textPreview":"Three forms of system involvement","textChars":33,"textLines":1,"bbox":[64,42,1050,48]}
+{"kind":"textbox","id":"sh/fm9c32xw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/el0vuxgb","slide":4,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/pcbe9cfy","slide":4,"text":"EVERYDAY ROUTINES","textPreview":"EVERYDAY ROUTINES","textChars":17,"textLines":1,"bbox":[66,139,354,34]}
+{"kind":"shape","id":"sh/obid07yt","slide":4,"bbox":[66,190,354,292]}
+{"kind":"textbox","id":"sh/3a9c72x8","slide":4,"text":"Super apps","textPreview":"Super apps","textChars":10,"textLines":1,"bbox":[90,225,306,56]}
+{"kind":"textbox","id":"sh/290vyhgn","slide":4,"text":"shape","textPreview":"shape","textChars":5,"textLines":1,"bbox":[150,302,186,46]}
+{"kind":"textbox","id":"sh/dgbedwfa","slide":4,"text":"Payment, communication, services, work","textPreview":"Payment, communication, services, work","textChars":38,"textLines":1,"bbox":[98,378,290,68]}
+{"kind":"textbox","id":"sh/cf2d4ryp","slide":4,"text":"LIVING","textPreview":"LIVING","textChars":6,"textLines":1,"bbox":[66,516,354,40]}
+{"kind":"textbox","id":"sh/a9k3el87","slide":4,"text":"KNOWLEDGE WORK","textPreview":"KNOWLEDGE WORK","textChars":14,"textLines":1,"bbox":[463,139,354,34]}
+{"kind":"shape","id":"sh/vat4nq9s","slide":4,"bbox":[463,190,354,292]}
+{"kind":"textbox","id":"sh/wv2lgvqd","slide":4,"text":"Generative-AI chat","textPreview":"Generative-AI chat","textChars":18,"textLines":1,"bbox":[487,225,306,56]}
+{"kind":"textbox","id":"sh/xwbmp0ri","slide":4,"text":"participates","textPreview":"participates","textChars":12,"textLines":1,"bbox":[547,302,186,46]}
+{"kind":"textbox","id":"sh/ixk3il83","slide":4,"text":"Searching, writing, interpretation, judgement","textPreview":"Searching, writing, interpretation, judgement","textChars":45,"textLines":1,"bbox":[495,378,290,68]}
+{"kind":"textbox","id":"sh/jyt4rq9o","slide":4,"text":"KNOWING","textPreview":"KNOWING","textChars":7,"textLines":1,"bbox":[463,516,354,40]}
+{"kind":"textbox","id":"sh/kzmlkvq9","slide":4,"text":"DELEGATED ACTION","textPreview":"DELEGATED ACTION","textChars":16,"textLines":1,"bbox":[860,139,354,34]}
+{"kind":"shape","id":"sh/50vmt0ru","slide":4,"bbox":[860,190,354,292]}
+{"kind":"textbox","id":"sh/y103m18z","slide":4,"text":"AI agents","textPreview":"AI agents","textChars":9,"textLines":1,"bbox":[884,225,306,56]}
+{"kind":"textbox","id":"sh/z29kf69k","slide":4,"text":"acts","textPreview":"acts","textChars":4,"textLines":1,"bbox":[944,302,186,46]}
+{"kind":"textbox","id":"sh/3650n2pc","slide":4,"text":"Planning, deciding, and doing something for a user","textPreview":"Planning, deciding, and doing something for a user","textChars":50,"textLines":1,"bbox":[892,378,290,68]}
+{"kind":"textbox","id":"sh/2lwzexor","slide":4,"text":"ACTING","textPreview":"ACTING","textChars":6,"textLines":1,"bbox":[860,516,354,40]}
+{"kind":"textbox","id":"sh/p8nipc72","slide":4,"text":"The shared question","textPreview":"The shared question","textChars":19,"textLines":1,"bbox":[70,594,250,30]}
+{"kind":"textbox","id":"sh/o7e1g76x","slide":4,"text":"What role does the person want to keep, share, or delegate?","textPreview":"What role does the person want to keep, share, or delegate?","textChars":59,"textLines":1,"bbox":[316,588,880,42]}
+{"kind":"notes","id":"nt/g4mide","slide":4,"text":"About 75 seconds.\n\nThe project compares three bounded forms of system involvement. A super app can shape an everyday routine because communication, payment, services, and work may pass through the same system. Generative-AI chat can participate in knowledge work by helping a person search, write, interpret, or judge. An AI agent may go further and act for a person. I use living, knowing, and acting as comparison labels. They do not mean that the thesis covers all of human life. Across the three cases, I repeat the same question. What role does the participant want to keep, do together with the system, or delegate?"}
+{"kind":"slide","id":"sl/fwdirp","slide":5,"title":"Why the Chinese context matters","textShapes":8}
+{"kind":"textbox","id":"sh/cbahkfe1","slide":5,"text":"Why the Chinese context matters","textPreview":"Why the Chinese context matters","textChars":31,"textLines":1,"bbox":[64,42,1050,48]}
+{"kind":"textbox","id":"sh/bqhgbadg","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/ap8zi5wv","slide":5,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/pozy90va","slide":5,"text":"Shared digital\ninfrastructure","textPreview":"Shared digital | infrastructure","textChars":29,"textLines":2,"bbox":[475,235,330,220]}
+{"kind":"textbox","id":"sh/onqhgvep","slide":5,"text":"Communication","textPreview":"Communication","textChars":13,"textLines":1,"bbox":[93,170,260,86]}
+{"kind":"shape","id":"sh/nmhg7qd4","slide":5,"bbox":[353,213,170.33,54.22]}
+{"kind":"textbox","id":"sh/2l8zelwj","slide":5,"text":"Work and institutions","textPreview":"Work and institutions","textChars":21,"textLines":1,"bbox":[88,455,270,86]}
+{"kind":"shape","id":"sh/1kzy5gve","slide":5,"bbox":[358,422.78,165.33,75.22]}
+{"kind":"textbox","id":"sh/0jqxcvet","slide":5,"text":"Payment and shopping","textPreview":"Payment and shopping","textChars":20,"textLines":1,"bbox":[928,170,258,86]}
+{"kind":"shape","id":"sh/ylcnatsn","slide":5,"bbox":[756.67,213,171.33,54.22]}
+{"kind":"textbox","id":"sh/jmlojyts","slide":5,"text":"Travel and services","textPreview":"Travel and services","textChars":19,"textLines":1,"bbox":[930,455,250,86]}
+{"kind":"shape","id":"sh/kne5c3ad","slide":5,"bbox":[756.67,422.78,173.33,75.22]}
+{"kind":"textbox","id":"sh/lon6l8by","slide":5,"text":"Using the system may depend on friends, employers, merchants, and public services","textPreview":"Using the system may depend on friends, employers, merchants, and public services","textChars":81,"textLines":1,"bbox":[236,600,808,55]}
+{"kind":"notes","id":"nt/fwdirp","slide":5,"text":"About 60 seconds.\n\nThe Chinese context matters because highly integrated platforms connect activities that may appear separate in another setting. Communication, payment, shopping, work, travel, and services can depend on the same account and device. This means participation is not always a simple personal preference. Friends, employers, merchants, and institutions can make a system practically necessary. I will still avoid treating all Chinese Gen Z as one group. The study is qualitative and bounded. Its value comes from examining how participants describe role expectations inside this particular digital environment.\n\nSource: Plantin, J.-C., and de Seta, G. (2019). WeChat as infrastructure: The techno-nationalist shaping of Chinese digital platforms."}
+{"kind":"slide","id":"sl/8km5pa","slide":6,"title":"Relation to existing human-AI research","textShapes":11}
+{"kind":"textbox","id":"sh/mtova54n","slide":6,"text":"Relation to existing human-AI research","textPreview":"Relation to existing human-AI research","textChars":38,"textLines":1,"bbox":[64,42,1050,48]}
+{"kind":"textbox","id":"sh/9wzelk3e","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/8vqxcfmt","slide":6,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/vihwnulk","slide":6,"text":"A DEFINED TASK","textPreview":"A DEFINED TASK","textChars":14,"textLines":1,"bbox":[78,144,470,36]}
+{"kind":"textbox","id":"sh/ax8fep4z","slide":6,"text":"How can a person work better with AI in one activity?","textPreview":"How can a person work better with AI in one activity?","textChars":53,"textLines":1,"bbox":[78,193,475,90]}
+{"kind":"textbox","id":"sh/xkzepk3a","slide":6,"text":"Common responses","textPreview":"Common responses","textChars":16,"textLines":1,"bbox":[78,325,220,30]}
+{"kind":"textbox","id":"sh/wjqxgfmp","slide":6,"text":"Explanation\nCorrection\nFeedback\nUser control","textPreview":"Explanation | Correction | Feedback | User control","textChars":44,"textLines":4,"bbox":[78,370,320,160]}
+{"kind":"shape","id":"sh/bmdwbql0","slide":6,"bbox":[620,126,3,480]}
+{"kind":"textbox","id":"sh/q14v2l4f","slide":6,"text":"THIS THESIS","textPreview":"THIS THESIS","textChars":11,"textLines":1,"bbox":[686,144,440,36]}
+{"kind":"textbox","id":"sh/sfq5crud","slide":6,"text":"What role should a system have across different parts of life?","textPreview":"What role should a system have across different parts of life?","textChars":62,"textLines":1,"bbox":[686,193,500,90]}
+{"kind":"textbox","id":"sh/dgzm5wvy","slide":6,"text":"Questions before a feature decision","textPreview":"Questions before a feature decision","textChars":35,"textLines":1,"bbox":[686,325,420,30]}
+{"kind":"textbox","id":"sh/qdo3ahc7","slide":6,"text":"What is already normal?\nWhat does the person keep?\nWhat can be shared?\nWhat can be delegated?","textPreview":"What is already normal? | What does the person keep? | What can be shared? | What can be delegated?","textChars":93,"textLines":4,"bbox":[686,370,480,190]}
+{"kind":"textbox","id":"sh/reh43mds","slide":6,"text":"The project builds on existing guidance and studies an earlier role question","textPreview":"The project builds on existing guidance and studies an earlier role question","textChars":76,"textLines":1,"bbox":[182,624,916,40]}
+{"kind":"notes","id":"nt/8km5pa","slide":6,"text":"About 70 seconds.\n\nA large amount of human-AI research already studies collaboration in a defined task. It also provides useful guidance about explanation, correction, feedback, and user control. I do not claim to invent these principles. My project asks an earlier question. Before deciding which feature to add, how does a person understand the role that a system already has? What does the person want to keep, share, or delegate? The contribution is the comparison of this role question across three forms of system involvement and within the Chinese context.\n\nSource: Amershi, S., et al. (2019). Guidelines for Human-AI Interaction. CHI 2019."}
+{"kind":"slide","id":"sl/wxwnys","slide":7,"title":"Research through Design and three probes","textShapes":15}
+{"kind":"textbox","id":"sh/47ut0fqp","slide":7,"text":"Research through Design and three probes","textPreview":"Research through Design and three probes","textChars":40,"textLines":1,"bbox":[64,42,1050,48]}
+{"kind":"textbox","id":"sh/361cra94","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1156,47,60,34]}
+{"kind":"shape","id":"sh/i5sby58j","slide":7,"bbox":[64,104,1152,0]}
+{"kind":"textbox","id":"sh/dw3uxkr6","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[64,142,62,42]}
+{"kind":"textbox","id":"sh/svut4fq1","slide":7,"text":"ROUTINE","textPreview":"ROUTINE","textChars":7,"textLines":1,"bbox":[132,148,230,30]}
+{"kind":"shape","id":"sh/rulcva9g","slide":7,"bbox":[64,198,350,354]}
+{"kind":"textbox","id":"sh/q9cb258v","slide":7,"text":"Evil PM\nSimulator","textPreview":"Evil PM | Simulator","textChars":17,"textLines":2,"bbox":[92,232,294,94]}
+{"kind":"shape","id":"sh/t0jalgr2","slide":7,"bbox":[112,346,254,0]}
+{"kind":"textbox","id":"sh/8zatsvqh","slide":7,"text":"How do platform choices become normal parts of daily life?","textPreview":"How do platform choices become normal parts of daily life?","textChars":58,"textLines":1,"bbox":[96,376,286,132]}
+{"kind":"textbox","id":"sh/ql4nm9cz","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,142,62,42]}
+{"kind":"textbox","id":"sh/rmd4fed4","slide":7,"text":"KNOWLEDGE","textPreview":"KNOWLEDGE","textChars":9,"textLines":1,"bbox":[518,148,230,30]}
+{"kind":"shape","id":"sh/cnm5ojup","slide":7,"bbox":[450,198,350,354]}
+{"kind":"textbox","id":"sh/dovmhova","slide":7,"text":"Epistemic\nIllusion","textPreview":"Epistemic | Illusion","textChars":18,"textLines":2,"bbox":[478,232,294,94]}
+{"kind":"shape","id":"sh/ep4nqtcv","slide":7,"bbox":[498,346,254,0]}
+{"kind":"textbox","id":"sh/zqd4jydg","slide":7,"text":"Which parts of thinking feel like mine, shared, or produced by AI?","textPreview":"Which parts of thinking feel like mine, shared, or produced by AI?","textChars":66,"textLines":1,"bbox":[482,376,286,132]}
+{"kind":"textbox","id":"sh/0rm5s3u1","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[836,142,62,42]}
+{"kind":"textbox","id":"sh/1sfmlovm","slide":7,"text":"ACTION","textPreview":"ACTION","textChars":6,"textLines":1,"bbox":[904,148,230,30]}
+{"kind":"shape","id":"sh/mtonutc7","slide":7,"bbox":[836,198,350,354]}
+{"kind":"textbox","id":"sh/nex4nydc","slide":7,"text":"Cyber-Utopia\nPersona Quiz","textPreview":"Cyber-Utopia | Persona Quiz","textChars":25,"textLines":2,"bbox":[864,232,294,94]}
+{"kind":"shape","id":"sh/jix4by9k","slide":7,"bbox":[884,346,254,0]}
+{"kind":"textbox","id":"sh/yho3idsz","slide":7,"text":"Where does delegation feel helpful, risky, or inappropriate?","textPreview":"Where does delegation feel helpful, risky, or inappropriate?","textChars":60,"textLines":1,"bbox":[868,376,286,132]}
+{"kind":"textbox","id":"sh/lkzmd8rq","slide":7,"text":"The probes create situations for explanation, disagreement, and revision","textPreview":"The probes create situations for explanation, disagreement, and revision","textChars":72,"textLines":1,"bbox":[158,606,964,46]}
+{"kind":"notes","id":"nt/wxwnys","slide":7,"text":"About 95 seconds.\n\nI will use Research through Design and develop three connected probes. Evil PM Simulator places the participant in the role of a product manager. It shows how platform decisions can become part of another person’s routine and eventually feel normal or necessary. Epistemic Illusion uses an AI-assisted detective task. It asks participants to trace which parts of the reasoning came from them, from the system, or from their interaction. Cyber-Utopia Persona Quiz asks participants to define what an AI agent may do in simple and sensitive situations. The system should follow the participant’s rule so that the research can examine how the participant later revises that rule. These probes are research situations. They invite explanation, disagreement, and revision rather than teaching one correct view of technology.\n\nSources: Zimmerman, Forlizzi, and Evenson (2007), Research through Design as a Method for Interaction Design Research in HCI. Gaver (2012), What Should We Expect from Research through Design?"}
+{"kind":"slide","id":"sl/nqrpr2","slide":8,"title":"Expected contribution and feedback","textShapes":15}
+{"kind":"textbox","id":"sh/bi5gr61s","slide":8,"text":"Expected contribution and feedback","textPreview":"Expected contribution and feedback","textChars":34,"textLines":1,"bbox":[64,45,1050,48]}
+{"kind":"textbox","id":"sh/cjex0b2d","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1156,49,60,34]}
+{"kind":"shape","id":"sh/dk7ytgjy","slide":8,"bbox":[64,107,1152,0]}
+{"kind":"textbox","id":"sh/2dwfu1kb","slide":8,"text":"POSSIBLE OUTCOMES","textPreview":"POSSIBLE OUTCOMES","textChars":17,"textLines":1,"bbox":[72,152,470,32]}
+{"kind":"textbox","id":"sh/3e5wn61w","slide":8,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,220,54,42]}
+{"kind":"textbox","id":"sh/ofexwb2h","slide":8,"text":"Situated findings from adult Chinese Gen Z","textPreview":"Situated findings from adult Chinese Gen Z","textChars":42,"textLines":1,"bbox":[144,218,440,70]}
+{"kind":"textbox","id":"sh/pgnepgj2","slide":8,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,332,54,42]}
+{"kind":"textbox","id":"sh/upcfq1kz","slide":8,"text":"A revised model of human-system roles","textPreview":"A revised model of human-system roles","textChars":37,"textLines":1,"bbox":[144,330,440,70]}
+{"kind":"textbox","id":"sh/fqlwjm1k","slide":8,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,444,54,42]}
+{"kind":"textbox","id":"sh/3a9gv61s","slide":8,"text":"Design considerations grounded in the three arrangements","textPreview":"Design considerations grounded in the three arrangements","textChars":56,"textLines":1,"bbox":[144,442,440,70]}
+{"kind":"textbox","id":"sh/29gz2107","slide":8,"text":"These outcomes will remain tied to the participant group and context","textPreview":"These outcomes will remain tied to the participant group and context","textChars":68,"textLines":1,"bbox":[72,574,520,58]}
+{"kind":"shape","id":"sh/pcryxwjy","slide":8,"bbox":[664,152,536,470]}
+{"kind":"textbox","id":"sh/4bih4bid","slide":8,"text":"FEEDBACK I NEED","textPreview":"FEEDBACK I NEED","textChars":15,"textLines":1,"bbox":[704,194,430,32]}
+{"kind":"textbox","id":"sh/ry9gz61o","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[704,270,42,42]}
+{"kind":"textbox","id":"sh/qd0z610j","slide":8,"text":"Does the comparison across the three arrangements feel coherent?","textPreview":"Does the comparison across the three arrangements feel coherent?","textChars":64,"textLines":1,"bbox":[760,260,386,100]}
+{"kind":"shape","id":"sh/d0ry1gju","slide":8,"bbox":[704,388,440,0]}
+{"kind":"textbox","id":"sh/czih8bi9","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[704,430,42,42]}
+{"kind":"textbox","id":"sh/72pgnm1k","slide":8,"text":"Which boundary of the participant group needs a clearer definition?","textPreview":"Which boundary of the participant group needs a clearer definition?","textChars":67,"textLines":1,"bbox":[760,420,386,110]}
+{"kind":"notes","id":"nt/nqrpr2","slide":8,"text":"About 70 seconds.\n\nI expect the project to produce three main outcomes. First, it will produce situated findings about how adult Chinese Gen Z participants describe human and system roles. Second, I will use the findings to revise the initial role model. Third, I will develop design considerations grounded in the three arrangements. These will not be universal rules for every user or culture. They will show what the participant material supports and where the limits remain. At this stage, I would especially like feedback on two points. Does the comparison across the three arrangements feel coherent? And which boundary of the participant group needs a clearer definition?"}

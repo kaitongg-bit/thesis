@@ -1,0 +1,36 @@
+flowchart LR
+  platform["超级应用分支"]
+  knowledge["AI 知识共创分支"]
+  delegation["AI Agent 委托分支"]
+  theory["agency 与反思框架"]
+
+  r01["R01 超级应用基础设施"]
+  r02["R02 商业引导机制"]
+  r03["R03 数字使用压力"]
+  r04["R04 心理所有感"]
+  r05["R05 模型立场与观点"]
+  r06["R06 AI 与核验"]
+  r07["R07 AI 委托与风险"]
+  r08["R08 自动化与控制"]
+  r09["R09 反思性设计"]
+  r10["R10 情境性 agency"]
+
+  r01 -->|"提供情境"| platform
+  r02 -->|"识别机制"| platform
+  r03 -.->|"相邻证据"| platform
+
+  r04 -->|"提出问题"| knowledge
+  r05 -->|"实验先例"| knowledge
+  r06 -->|"经验关联"| knowledge
+
+  r07 -->|"界定风险"| delegation
+  r08 -->|"提供反例"| delegation
+
+  r09 -->|"解释目的"| theory
+  r10 -->|"界定 agency"| theory
+
+  classDef domain fill:#D9D9D9,stroke:#B3B3B3;
+  classDef source fill:#C2E5FF,stroke:#3DADFF;
+
+  class platform,knowledge,delegation,theory domain;
+  class r01,r02,r03,r04,r05,r06,r07,r08,r09,r10 source;

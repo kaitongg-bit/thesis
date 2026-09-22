@@ -1,0 +1,70 @@
+flowchart TB
+  subgraph literature["文献来源"]
+    r01["R01 超级应用基础设施"]
+    r02["R02 商业引导机制"]
+    r03["R03 数字使用压力"]
+    r04["R04 心理所有感"]
+    r05["R05 模型立场与观点"]
+    r06["R06 AI 与核验"]
+    r07["R07 AI 委托与风险"]
+    r08["R08 自动化与控制"]
+    r09["R09 反思性设计"]
+    r10["R10 情境性 agency"]
+  end
+
+  subgraph researcher["我的研究来源：须经本人审核"]
+    position["c/i 中国数字平台使用经历"]
+    robot["h 人与机械臂互动与信任项目"]
+    question["l 未知问题与研究问题"]
+    hypothesis["m 初始假设"]
+  end
+
+  subgraph planned["待采集来源：目前不是证据"]
+    walkthrough["b/j 界面走查与比较"]
+    fieldwork["a/n 参与者任务叙事与原话"]
+    probes["k 原型试测与反馈"]
+  end
+
+  subgraph modelGroup["Initial Reference Model"]
+    platform["超级应用因素"]
+    knowledge["知识共创因素"]
+    delegation["未来委托因素"]
+    agency["任务中的 agency 经验"]
+    reference["因素关系与未知"]
+  end
+
+  r01 --> platform
+  r02 --> platform
+  r03 -.->|"相邻证据"| platform
+  r04 --> knowledge
+  r05 --> knowledge
+  r06 --> knowledge
+  r07 --> delegation
+  r08 --> delegation
+  r09 --> agency
+  r10 --> agency
+
+  position -->|"提出问题"| platform
+  position -->|"提出问题"| knowledge
+  robot -->|"启发关注"| delegation
+  question -->|"保留未知"| reference
+  hypothesis -->|"标记假设"| reference
+
+  walkthrough -->|"检验与补充"| platform
+  fieldwork -->|"检验与修订"| reference
+  probes -->|"检验与修订"| reference
+
+  classDef literature fill:#C2E5FF,stroke:#3DADFF;
+  classDef researcher fill:#FFE0C2,stroke:#FF9E42;
+  classDef planned fill:#FFECBD,stroke:#FFC943;
+  classDef model fill:#CDF4D3,stroke:#66D575;
+
+  class r01,r02,r03,r04,r05,r06,r07,r08,r09,r10 literature;
+  class position,robot,question,hypothesis researcher;
+  class walkthrough,fieldwork,probes planned;
+  class platform,knowledge,delegation,agency,reference model;
+
+  style literature fill:#EFF8FF,stroke:#3DADFF
+  style researcher fill:#FFF7ED,stroke:#FF9E42
+  style planned fill:#FFFBE6,stroke:#FFC943
+  style modelGroup fill:#EFFAF0,stroke:#66D575
