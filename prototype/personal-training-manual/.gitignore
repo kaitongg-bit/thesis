@@ -1,0 +1,7 @@
+# Personal records and local runtime files must stay on the participant's device.
+book/data/
+book/.runtime/
+**/.env
+**/.env.*
+**/node_modules/
+.DS_Store

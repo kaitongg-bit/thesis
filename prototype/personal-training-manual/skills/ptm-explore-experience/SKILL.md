@@ -1,0 +1,47 @@
+---
+name: ptm-explore-experience
+description: Help a participant in the Personal Training Manual prototype recall and examine a concrete experience, explore how a learned approach formed, and assess possible patterns. Apply within that prototype's reflection sessions.
+---
+
+# Explore an experience
+
+Read `../personal-training-manual/references/conversation-contract.md` if it has not been loaded in the current session. Follow the host's current participant goal and the participant's explicit preferences. Use this module flexibly, rather than completing an intake list.
+
+When choosing or rewriting a difficult question, consult [question design examples](references/question-design.md). They distinguish purposes and failure-prone assumptions; use only the relevant examples.
+
+## Select the needed move
+
+### Find an accessible episode
+
+Use the person's current concern to suggest a manageable event: a project, ordinary task, decision, interaction, or a moment that still comes to mind. Start recent if that makes recall easier. A small event is enough; do not require a turning point or search for childhood trauma.
+
+If they cannot recall, offer a choice of kinds of moments, such as one that took effort, one that felt satisfying, or one they wanted to avoid. Label suggestions as prompts, not memories. If none helps, stay with the current concern, provide a short reflection, or pause this line of exploration.
+
+### Understand what happened
+
+Ask only for missing context that matters now. Possible angles include the situation, what they tried, who else participated, the available choices, and what happened next. Let the person tell the story before repeatedly interrupting. Avoid an entire who/when/why/how questionnaire in one response.
+
+Keep the difference between their actions, others' contributions, circumstances, and outcomes. A successful outcome does not prove an individual trait; a disappointing one does not prove a deficit. Check whether your question contains a new assumption. Use the person's own degree of certainty about motivations; keep chosen and constrained actions open until they describe them. For example, “这几件事里，哪一部分让你累？” leaves more room than presuming they were forced to take the role.
+
+### Explore how a way of acting formed
+
+When a habit is actually described, explore where it was learned, what it helped with then, what responses it received, and how the person understands it today. The remembered history may contain several influences or remain uncertain. Do not impose a single origin or blame a family/school system.
+
+Offer metaphor terms only when they clarify: `memory / 仍影响我的经历`, `skill / 学会的做法`, `loop / 常出现的做事方式`, `tool / 借助的工具与支持`. A loop is an ordinary pattern, not a measured algorithm. An isolated example can stay an episode.
+
+### Try a connection
+
+Reflect a specific possible connection between episodes using tentative language. Invite the participant to modify it or offer a different situation if they want. Do not demand evidence as if they must defend themselves. If rejected, revise or withdraw the interpretation and route to repair when appropriate. Do not resurrect a rejected trait in the final summary under a synonym.
+
+## Example moves
+
+These are synthetic writing examples, not a script to replay or participant findings.
+
+- “你提到那段实习让你很怀疑自己。有没有一个你还记得的场景，我们可以从那里说起？”
+- “当时整理大家的意见，具体是哪一部分最费劲？”
+- “你说总要先猜要求，这种做法以前在哪些情况下帮过你？”
+- “这两件事里，你都把模糊的要求变成了能开始做的步骤。你觉得这样的联系贴近吗，还是漏掉了什么？”
+
+## Handoff
+
+Keep a short working account of the episode and the person's own meaning, with uncertainty intact. Route to `../ptm-work-and-values/SKILL.md` when the participant wants to consider what matters now, or to `../ptm-build-manual/SKILL.md` when they want a record. If they want to stay with the story, continue at their pace. A metaphor mismatch or correction routes to repair.

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我的个人训练说明书</title><link rel="stylesheet" href="/book.css"><link rel="stylesheet" href="/viewport.css"></head>
+<body>
+  <header class="toolbar"><a class="wordmark" href="/">个人训练说明书<span>PERSONAL TRAINING MANUAL</span></a><div class="toolbar-right"><span id="mode">虚构示例</span><button id="contents-button" class="quiet">目录</button><button id="new-book" class="outline">开始我的说明书</button></div></header>
+  <main>
+    <div class="above-book"><span id="book-label">一份仍在书写的记录</span><span id="sync-state" aria-live="polite">先翻一翻，不急着有答案</span></div>
+    <section class="book" id="book" aria-label="个人说明书书页"><article id="left-page" class="page left"></article><article id="right-page" class="page right"></article></section>
+    <nav class="navigation" aria-label="翻页"><button id="previous" class="nav-arrow" aria-label="上一页">←</button><span id="page-indicator"></span><button id="next" class="nav-arrow" aria-label="下一页">→</button></nav>
+    <footer class="bottom-bar"><p id="bottom-hint">示例中的经历和文字均为虚构，可以试着改写。</p><div><button id="connect-chat" class="quiet">接着聊</button><button id="export" class="quiet">带走这份说明书</button></div></footer>
+  </main>
+  <aside id="contents" class="contents" hidden><div class="drawer-heading"><span>翻到这里</span><button id="close-contents" aria-label="关闭目录">×</button></div><div id="contents-list"></div><p>书页随着讲述慢慢增加，空白也可以留着。</p></aside>
+  <dialog id="editor"><form id="edit-form"><div class="dialog-heading"><h2>用自己的话写</h2><button type="button" data-close="editor" aria-label="关闭">×</button></div><label>这一页的标题<input id="edit-title" maxlength="200" required></label><label>我现在想这样说<textarea id="edit-body" rows="8" maxlength="12000" required></textarea></label><p class="muted">改写后会标为「本人改写」。</p><p id="edit-error" class="error" role="alert"></p><button class="primary" type="submit">留下这次改写</button></form></dialog>
+  <dialog id="new-dialog"><form id="new-form"><div class="dialog-heading"><h2>从一个问题开始</h2><button type="button" data-close="new-dialog" aria-label="关闭">×</button></div><p>这是属于你的记录。它可以慢慢增加，也可以随时改写。</p><label>怎么称呼你？<span class="optional">可以留空或用化名</span><input id="new-alias" maxlength="80" autocomplete="off"></label><label>最近有什么想弄清楚的？<textarea id="new-focus" rows="3" maxlength="3000" placeholder="例如：这些年，我到底学会了什么？"></textarea></label><p class="storage-note">这份说明书将保存在这台电脑上。聊天继续在 Codex 中进行，按平台设置留存。书页需要你把启动说明发给新聊天，才会开始跟随整理结果更新。</p><p id="new-error" class="error" role="alert"></p><button type="submit" class="primary">同意在本机保存，翻开新的一页</button></form></dialog>
+  <dialog id="connect-dialog"><div class="dialog-heading"><h2 id="connect-title">在聊天里接着写</h2><button type="button" data-close="connect-dialog" aria-label="关闭">×</button></div><p id="connect-help"></p><textarea id="chat-prompt" rows="8" readonly aria-label="发送给 Codex 的启动说明"></textarea><button id="copy-prompt" class="primary">复制到 Codex 新聊天</button></dialog>
+  <dialog id="delete-dialog"><div class="dialog-heading"><h2>把这一页拿掉？</h2><button type="button" data-close="delete-dialog" aria-label="关闭">×</button></div><p>删除此页及它的引文和关联。其他书页的文字仍然保留。聊天中的原话不受影响。</p><p class="muted">此操作不另存旧版本。</p><button id="confirm-delete" class="primary danger">删除这一页</button></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="/book.js"></script>
+</body></html>

@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import {BookStore,applyOperations,validate} from '../store.mjs';
+const base=()=>({schemaVersion:1,id:'test',title:'合成测试',alias:'',focus:'',revision:0,sources:[{id:'S1',label:'合成原话',excerpt:'只用于测试'}],entries:[{id:'E1',type:'memory',title:'一件事',body:'合成记录',origin:'participant',status:'reported',sourceIds:['S1'],relatedIds:[]},{id:'I1',type:'skill',title:'一种猜测',body:'合成猜测',origin:'ai_suggestion',status:'unconfirmed',sourceIds:['S1'],relatedIds:['E1']}]});
+test('AI cannot silently replace a participant-edited page',()=>{const a=base();a.entries[1].status='revised';assert.throws(()=>applyOperations(a,0,'ai',[{type:'upsertEntry',entry:{...a.entries[1],body:'强行改写',status:'unconfirmed'}}]),e=>e.status===409);});
+test('stale edits are rejected, preserving the original',()=>{const a=base();assert.throws(()=>applyOperations(a,2,'participant',[{type:'setFocus',focus:'覆盖'}]),e=>e.status===409);assert.equal(a.focus,'');});
+test('deleting a page removes its excerpts and cross-links without retaining a history',()=>{const b=applyOperations(base(),0,'participant',[{type:'deleteEntry',id:'E1'}]);assert.equal(b.entries.length,1);assert.deepEqual(b.sources,[]);assert.deepEqual(b.entries[0].sourceIds,[]);assert.deepEqual(b.entries[0].relatedIds,[]);assert.equal(b.revision,1);});
+test('AI cannot turn a draft into participant acceptance',()=>{const a=base();assert.throws(()=>applyOperations(a,0,'ai',[{type:'upsertEntry',entry:{...a.entries[1],status:'accepted'}}]));});
+test('dangling provenance is rejected and inputs remain unchanged',()=>{const a=base();assert.throws(()=>applyOperations(a,0,'ai',[{type:'upsertEntry',entry:{...a.entries[1],sourceIds:['MISSING']}}]));assert.equal(a.entries[1].sourceIds[0],'S1');});
+test('storage serializes competing changes and never leaves partial JSON',async()=>{const dir=await fs.mkdtemp(path.join(os.tmpdir(),'ptm-book-test-'));try{const store=new BookStore(dir);const b=await store.create();const results=await Promise.allSettled([store.update(b.id,0,'participant',[{type:'setFocus',focus:'第一个问题'}]),store.update(b.id,0,'participant',[{type:'setFocus',focus:'第二个问题'}])]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.equal(results.filter(x=>x.status==='rejected')[0].reason.status,409);validate(await store.read(b.id));assert.equal((await fs.readdir(dir)).length,1);}finally{await fs.rm(dir,{recursive:true,force:true});}});
+test('session identifiers cannot escape the storage folder',async()=>{const store=new BookStore('/tmp/not-accessed');await assert.rejects(store.read('../../etc/passwd'));});

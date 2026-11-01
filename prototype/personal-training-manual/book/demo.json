@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "demo",
+  "title": "我的个人训练说明书",
+  "alias": "一位正在找工作的年轻人",
+  "focus": "过去花了这么多时间，我究竟留下了什么？",
+  "revision": 0,
+  "createdAt": "2026-11-01T12:00:00Z",
+  "updatedAt": "2026-11-01T12:00:00Z",
+  "sources": [
+    {"id":"S1","label":"关于一次小组项目的讲述 · 虚构示例","excerpt":"我把大家不同的意见理成了两个方向。其实我挺喜欢这部分，但一直安抚大家的情绪让我很累。"},
+    {"id":"S2","label":"关于做项目习惯的讲述 · 虚构示例","excerpt":"我经常先看要求，找参考，再开始做。有时做得顺，有时也会因此迟迟不敢开始。"},
+    {"id":"S3","label":"关于支持与期待的讲述 · 虚构示例","excerpt":"有个同学总能帮我看见方案里没想清楚的地方。我想找份收入稳定的工作，也希望还能留一点自己创造东西的时间。"}
+  ],
+  "entries": [
+    {"id":"E1","type":"memory","title":"把一团意见，理成两个方向","body":"那次小组项目里，我试着把大家各自的想法放在一起，整理成可以继续讨论的两个方向。\n\n我喜欢把混乱慢慢理顺。与此同时，安抚分歧让我感到疲惫。这两种感受都留在了这段经历里。","origin":"participant","status":"reported","sourceIds":["S1"],"relatedIds":[]},
+    {"id":"I1","type":"skill","title":"让模糊的事情，有一个可以开始的形状","body":"整理不同的意见，可能是一种逐渐学会的做法。\n\n眼前这段经历提供了一个线索。我还想看看，它是否也出现在其他场合，以及哪些部分是我愿意继续做的。","origin":"ai_suggestion","status":"unconfirmed","sourceIds":["S1"],"relatedIds":["E1"]},
+    {"id":"L1","type":"loop","title":"先找标准，再开始行动","body":"看要求，找参考，试着做，再看反馈。\n\n这套做法有时让我踏实，也有时让我等到“准备好了”才敢开始。它什么时候帮助了我，什么时候又限制了我，还可以继续看。","origin":"participant","status":"participant_proposed","sourceIds":["S2"],"relatedIds":[]},
+    {"id":"T1","type":"tool","title":"能一起把问题看清楚的人","body":"那个愿意认真看方案的同学，是我可以借助的支持。\n\n我走到这里，用过软件和资料，也借过别人的眼睛。有些积累存在于这样的关系里。","origin":"ai_suggestion","status":"unconfirmed","sourceIds":["S3"],"relatedIds":[]},
+    {"id":"V1","type":"value","title":"想安稳，也想保留一点创造的时间","body":"收入稳定，是我现在认真在乎的条件。\n\n我也希望工作之外，仍有一点空间，去做自己想做的东西。暂时还没有想好两者怎样放在一起。","origin":"participant","status":"participant_proposed","sourceIds":["S3"],"relatedIds":[]},
+    {"id":"Q1","type":"question","title":"有些答案，下一次再接着写","body":"如果有些事情可以交给 AI，我还想亲自学习和经历哪些部分？\n\n这是一个可以继续聊的问题。今天还可以停在这里。","origin":"ai_suggestion","status":"open","sourceIds":[],"relatedIds":["I1","V1"]}
+  ]
+}
