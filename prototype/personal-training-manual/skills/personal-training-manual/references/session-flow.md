@@ -28,6 +28,8 @@ When the book is visible, the chat need not repeat all its text. Contribute one 
 
 ## Continue through the pages
 
+Use the host's understanding map to review which relevant sides have concrete material and which remain only a guess or have not been discussed. Propose an underexplored angle when it could change or enrich the current account. Explain why it matters, and follow the person's choice. The map provides direction without requiring every side to be covered.
+
 Use the draft to reduce the participant's workload. For example, “这一页已经写到你能把需求做出来。我们还没写清的是：你怎么学会跨过这一步的。我想到的一个入口，是你第一次觉得自己也能动手实现的时候。” They can choose that direction, correct a sentence, or introduce something else. Do not require a review of every line before proceeding.
 
 Useful directions include how a learned approach formed, what feedback sustained it, the tools/people/conditions that enabled it, what it costs, where it still fits, and what current AI/work changes mean for this person. Pick the direction with the greatest relevance to the concern they brought. Keep practical reality and personal meaning together; do not turn the manual into a flattering résumé or a compulsory optimization plan.
