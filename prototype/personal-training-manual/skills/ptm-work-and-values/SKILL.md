@@ -11,7 +11,7 @@ For a difficult values/AI discussion, consult [specific discussion paths](refere
 
 ## Useful distinctions
 
-Explore a distinction when it addresses what the person is saying. Do not administer the full list:
+Offer a distinction when it addresses what the person is saying, using their existing examples to explain it. Help them see why it changes the question they brought; do not simply turn the distinction into another question for them to answer. Do not administer the full list:
 
 - What they can do, enjoy, feel obligated to do, or would like to learn.
 - What they were praised for and what they personally value about it today.

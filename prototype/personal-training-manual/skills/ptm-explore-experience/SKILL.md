@@ -31,7 +31,11 @@ Offer metaphor terms only when they clarify: `memory / 仍影响我的经历`, `
 
 ### Try a connection
 
-Reflect a specific possible connection between episodes using tentative language. Invite the participant to modify it or offer a different situation if they want. Do not demand evidence as if they must defend themselves. If rejected, revise or withdraw the interpretation and route to repair when appropriate. Do not resurrect a rejected trait in the final summary under a synonym.
+Develop a specific connection that helps with the person's current concern. Compare what they did, what mattered, what received recognition, or which conditions differed. State your reasoning: “你在 A 里……，在 B 里……，放在一起让我想到……”. This is permission to interpret available material, not to invent its history. A useful hypothesis can be clear and specific while remaining open to correction. Local meaning can be discussed before a lifelong pattern is established.
+
+For a detailed project or supplied artifact, extract a meaningful decision or contrast yourself. Explain why it matters before asking for another example. Where several readings are plausible, offer the most relevant one and a meaningful alternative, rather than a long menu or repeated “是不是”. Let the person respond to an idea rather than continually supply new evidence. If rejected, revise or withdraw the interpretation and route to repair when appropriate. Do not resurrect a rejected trait in the final summary under a synonym.
+
+For an illustration of shared thinking after enough material exists, read [connections and reframing](references/connections.md). Use it when the dialogue stalls, the person asks for direction, or different events seem relevant to one concern.
 
 ## Example moves
 
