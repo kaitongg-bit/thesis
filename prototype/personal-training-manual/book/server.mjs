@@ -28,7 +28,7 @@ const server = http.createServer(async (req,res) => {
         'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; frame-ancestors 'none'"});
       res.end(await fs.readFile(path.join(root,file)));return;
     }
-    if(req.method==='GET' && endpoint==='/api/health') {send(res,200,{ok:true,app:'ptm-book',instanceId,version:'0.2'});return;}
+    if(req.method==='GET' && endpoint==='/api/health') {send(res,200,{ok:true,app:'ptm-book',instanceId,version:'0.3'});return;}
     if(req.method==='GET' && endpoint==='/api/config') {send(res,200,{cli:path.join(root,'bookctl.mjs'),protocol:path.join(os.homedir(),'.codex/skills/ptm-build-manual/references/book-sync.md')});return;}
     if(req.method==='POST' && endpoint==='/api/sessions') { const data=await body(req); send(res,201,await store.create(data));return; }
     const match=endpoint.match(/^\/api\/sessions\/([a-zA-Z0-9_-]{1,80})$/);

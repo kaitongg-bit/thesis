@@ -81,10 +81,12 @@ export class BookStore {
     try { return validate(JSON.parse(await fs.readFile(this.file(id), 'utf8'))); }
     catch (e) { if (e.code === 'ENOENT') throw new StoreError('找不到这份说明书', 404); throw e; }
   }
-  async create({alias = '', focus = ''} = {}) {
+  async create({alias = '', focus = '', initialOps = []} = {}) {
     const now = new Date().toISOString();
-    const book = validate({ schemaVersion: 1, id: randomUUID(), title: '我的个人训练说明书', alias, focus,
+    let book = validate({ schemaVersion: 1, id: randomUUID(), title: '我的个人训练说明书', alias, focus,
       revision: 0, createdAt: now, updatedAt: now, sources: [], entries: [] });
+    check(Array.isArray(initialOps), '首批书页格式无效');
+    if(initialOps.length)book=applyOperations(book,0,'ai',initialOps);
     await fs.mkdir(this.directory, {recursive:true});
     await fs.writeFile(this.file(book.id), JSON.stringify(book, null, 2), {flag:'wx', mode:0o600}); return book;
   }

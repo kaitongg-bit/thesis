@@ -21,7 +21,13 @@ The opening book is a clearly marked fictional sample. It supports page turning,
 
 ## Connect a Codex conversation
 
-Copy the five directories inside `skills/` into your own Codex skills directory (`~/.codex/skills/`), preserving any unrelated existing skills. The required directories are:
+Install the five skills and configure this local book's location:
+
+```sh
+node book/install-skills.mjs
+```
+
+This updates the following same-named directories in `~/.codex/skills/`; back up personal modifications first. Unrelated skills are untouched:
 
 - `personal-training-manual`
 - `ptm-explore-experience`
@@ -29,9 +35,9 @@ Copy the five directories inside `skills/` into your own Codex skills directory 
 - `ptm-repair-conversation`
 - `ptm-build-manual`
 
-In the local page, choose **开始我的说明书**, read the local storage explanation, and create a book if you want one. Copy its generated start message into a new Codex conversation. This authorizes the selected local book and tells Codex how to use the synchronization utility.
+Start a new Codex conversation with `$personal-training-manual`. The host explains the first-edition outcome, offers concrete starting points and asks once about local saving. Once a useful experience is available, it creates a new book with real initial pages and opens its exact URL using available browser tools. No manual session-ID handoff is needed. Chat-only use remains available. A browser-opening failure falls back to the saved book's link; a saving failure must be reported separately.
 
-At meaningful points in the conversation, the manual skill can write selected material through `book/bookctl.mjs`. The page checks for updates approximately every 1.4 seconds. It does not read the Codex conversation stream or automatically import earlier chats.
+At meaningful points, the skill updates the same draft through its configured helper and `book/bookctl.mjs`. The page checks for updates approximately every 1.4 seconds. It does not read the Codex conversation stream or automatically import earlier chats. Moving an existing book to another conversation is still possible with the page's optional continuation message.
 
 ## Records and controls
 
@@ -45,10 +51,10 @@ Only prototype source, mechanism notes and clearly marked synthetic examples bel
 
 ```sh
 cd book
-node --test tests/store.test.mjs
+node --test tests/*.test.mjs
 ```
 
-The tests cover protected edits, revision conflicts, source validation, deletion, concurrent updates and record-path boundaries. They do not establish clinical suitability or reflective effectiveness.
+The tests cover server bootstrapping, atomic first-edition creation, continuation of the same book, session isolation, protected edits, revision conflicts, source validation, deletion and record-path boundaries. They do not establish clinical suitability or reflective effectiveness.
 
 To stop the locally running service:
 

@@ -2,5 +2,5 @@
   "name": "personal-training-manual-book",
   "private": true,
   "type": "module",
-  "scripts": {"start": "node server.mjs", "test": "node --test tests/store.test.mjs"}
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/*.test.mjs", "install-skills": "node install-skills.mjs"}
 }

@@ -9,7 +9,7 @@ Read the host's conversation contract if not already loaded, then read [the reco
 
 ## When and what to make
 
-Offer a small draft when useful to the person or when requested. A summary can help further discussion; it need not wait for the end. Keep the artifact proportionate to what has been shared. Do not fill categories for visual symmetry or invent strengths to make a satisfying ending.
+Produce a small first draft once a concrete experience and an action, concern or meaning are available. This draft is the medium for further discussion; it should not wait for a full biography, a second example, or another request to make the manual. Usually an experience page, a tentative understanding and a live question suffice. Keep the artifact proportionate; do not fill categories for visual symmetry or invent strengths.
 
 Before saving a separate file, confirm whether the person wants one and the destination. A chat draft is available when they prefer no separate record. Use a distinct participant/session folder when saving. Do not overwrite another person's record, read another participant's files, or copy sensitive biography from the thesis workspace. Save in the agreed folder only.
 
@@ -25,6 +25,6 @@ Before saving a separate file, confirm whether the person wants one and the dest
 
 ## Output
 
-Use a readable Markdown manual by default. When the person supplies an authorized local book session, read [the book synchronization protocol](references/book-sync.md) and update that book through its utility. The template is flexible. If the person wants a different format, adapt while keeping meaning and provenance visible. Be accurate about turn-based record updates rather than token-by-token chat streaming.
+For the installed book prototype, use the local book when the participant has authorized that destination. Read [the synchronization protocol](references/book-sync.md) to create this session's book automatically with its first pages, open it, and update it. Do not require the participant to supply a session ID for a new book. Use readable Markdown in chat when saving is declined or the helper is unavailable; report a saving failure clearly. The template is flexible. Be accurate about turn-based record updates rather than token-by-token chat streaming.
 
 State briefly what changed when revising. Keep only the agreed version history. Reuse an earlier manual only when authorized and distinguish earlier accounts from today's changes. Data collection for research requires separate, specific authorization; a request for a personal manual does not authorize a research dataset or public quotation.

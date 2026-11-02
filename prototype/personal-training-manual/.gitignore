@@ -5,3 +5,4 @@ book/.runtime/
 **/.env.*
 **/node_modules/
 .DS_Store
+**/local-book.json

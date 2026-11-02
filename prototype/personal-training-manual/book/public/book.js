@@ -19,7 +19,7 @@ function render(){
   $('mode').textContent=demo?'虚构示例':'我的说明书';
   $('new-book').textContent=demo?'开始我的说明书':'另开一本';
   $('book-label').textContent=book.alias?`${book.alias} · 一份仍在书写的记录`:'一份仍在书写的记录';
-  $('bottom-hint').textContent=demo?'经历和文字均为虚构。示例改写只留在本次预览。':'本机保存 · 你可以直接改写，或在聊天里继续补充。';
+  $('bottom-hint').textContent=demo?'这是虚构示例，不会接收你的聊天更新。自己的书页会由体验聊天自动创建。':'本机保存 · 这是一份可带走的初稿。你可以直接改写，或在聊天里继续补充。';
   $('connect-chat').textContent=demo?'试一次书页更新':'在 Codex 中接着聊';
   const list=$('contents-list');list.replaceChildren(button('封面与眼前的问题',()=>{navigate(0);$('contents').hidden=true;},'contents-list-item'));
   for(const p of pages){if(!p.entry)continue;const b=button('',()=>goEntry(p.entry.id),'contents-list-item');b.append(el('small','',labels[p.entry.type][1]),document.createTextNode(p.entry.title));list.append(b);}
@@ -76,7 +76,7 @@ async function connect(entry){
     $('sync-state').textContent='正在模拟一次整理…';await new Promise(resolve=>setTimeout(resolve,800));
     book.entries.push({id:'DEMO-NEW',type:'custom',title:'刚刚，多了一种说法',body:'“把事情理顺”与“照顾所有人的情绪”，也许可以分开理解。\n\n这是一条虚构的更新，用来演示：聊天中的一小段整理，怎样变成可以回看的书页。',origin:'ai_suggestion',status:'unconfirmed',sourceIds:['S1'],relatedIds:['E1']});newIds=new Set(['DEMO-NEW']);render();goEntry('DEMO-NEW');$('sync-state').textContent='一次虚构更新 · 新书页已出现';return;
   }
-  config ||= await api('/api/config');$('connect-title').textContent=entry?'接着聊这一页':'在聊天里接着写';$('connect-help').textContent='复制下面的说明，发到 Codex 新聊天。之后留着这本书，整理产生的新内容会自动显示。';$('chat-prompt').value=promptFor(entry);$('connect-dialog').showModal();
+  config ||= await api('/api/config');$('connect-title').textContent=entry?'接着聊这一页':'在聊天里接着写';$('connect-help').textContent='如果正在进行体验，回到原聊天继续说就好。下面的说明用于换到另一段聊天时接续这本书。';$('chat-prompt').value=promptFor(entry);$('connect-dialog').showModal();
 }
 $('copy-prompt').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('chat-prompt').value);toast('已复制，发到 Codex 新聊天即可');}catch{$('chat-prompt').select();toast('请手动复制选中的文字');}});
 $('confirm-delete').addEventListener('click',async()=>{try{await mutate([{type:'deleteEntry',id:deletingId}]);$('delete-dialog').close();toast('这页及它的引文和关联已移除');}catch(e){handleError(e);}});
@@ -91,6 +91,6 @@ $('export').addEventListener('click',()=>{
   for(const p of pages){if(!p.entry)continue;const e=p.entry;lines.push(`\n## ${labels[e.type][1]}：${e.title}\n\n${e.body}\n\n状态：${statuses[e.status]}`);for(const id of e.sourceIds){const s=book.sources.find(x=>x.id===id);if(s)lines.push(`\n来源（${s.label}）：${s.excerpt||'转述记录'}`);}}
   const url=URL.createObjectURL(new Blob([lines.join('\n')],{type:'text/markdown;charset=utf-8'}));const a=el('a');a.href=url;a.download='我的个人训练说明书.md';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('说明书已导出为可继续修改的文字文件');
 });
-async function poll(){if(demo||polling||document.hidden)return;polling=true;try{const updated=await api(`/api/sessions/${book.id}`);if(updated.revision!==book.revision){const old=book;newIds=new Set(updated.entries.filter(e=>!old.entries.some(x=>x.id===e.id&&x.body===e.body&&x.title===e.title)).map(e=>e.id));book=updated;if(!old.entries.length&&book.entries.length)spread=1;render();$('sync-state').textContent='刚刚有新的整理 · 已同步';toast(newIds.size?'书页有了新的内容':'书页已按新的说法更新');}else $('sync-state').textContent='书页与本地记录一致';}catch{$('sync-state').textContent='暂时断开连接 · 当前书页仍可阅读';}finally{polling=false;}}
-async function start(){const id=new URLSearchParams(location.search).get('session');try{if(id&&/^[a-zA-Z0-9_-]{1,80}$/.test(id)){book=await api(`/api/sessions/${id}`);demo=false;}else{book=await api('/api/demo');demo=true;}render();setInterval(poll,1400);}catch(e){$('left-page').append(el('h2','','暂时没能翻开这本书'),el('p','body-copy',e.message));$('right-page').append(button('先看虚构示例',()=>location.assign('/'),'outline'));}}
+async function poll(){if(demo||polling||document.hidden)return;polling=true;try{const updated=await api(`/api/sessions/${book.id}`);if(updated.revision!==book.revision){const old=book;newIds=new Set(updated.entries.filter(e=>!old.entries.some(x=>x.id===e.id&&x.body===e.body&&x.title===e.title)).map(e=>e.id));book=updated;if(!old.entries.length&&book.entries.length)spread=1;render();$('sync-state').textContent='刚刚有新的整理 · 已同步';toast(newIds.size?'书页有了新的内容':'书页已按新的说法更新');}else $('sync-state').textContent=book.entries.length?`已保存 ${book.entries.length} 条内容 · 等待下一次整理`:'书页已创建 · 还没有写入内容';}catch{$('sync-state').textContent='暂时断开连接 · 当前书页仍可阅读';}finally{polling=false;}}
+async function start(){const id=new URLSearchParams(location.search).get('session');try{if(id&&/^[a-zA-Z0-9_-]{1,80}$/.test(id)){book=await api(`/api/sessions/${id}`);demo=false;if(book.entries.length)spread=1;}else{book=await api('/api/demo');demo=true;}render();$('sync-state').textContent=demo?'虚构示例 · 尚未连接任何体验聊天':`已载入 ${book.entries.length} 条内容 · 本机书页`;setInterval(poll,1400);}catch(e){$('left-page').append(el('h2','','暂时没能翻开这本书'),el('p','body-copy',e.message));$('right-page').append(button('先看虚构示例',()=>location.assign('/'),'outline'));}}
 start();

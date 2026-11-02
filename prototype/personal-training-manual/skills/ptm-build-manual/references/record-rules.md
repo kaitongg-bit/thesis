@@ -1,8 +1,8 @@
-# Record rules and flexible template · 0.1
+# Record rules and flexible template · 0.3
 
 ## Minimal record model
 
-The participant-facing output is Markdown. A structured application can later map the same fields; no database or mandatory JSON entry is required in this prototype.
+The participant-facing output is an editable local book when authorized, with Markdown available for chat-only use and export. The following fields guide its content; the book protocol defines the actual update operations.
 
 | Record | Minimum useful fields | Meaning |
 | --- | --- | --- |
@@ -26,6 +26,8 @@ Source excerpts are optional if the person does not want quotations stored. Pres
 Do not automatically infer agreement with multiple entries from a single ambiguous response. If the scope matters, clarify at the next appropriate review point. Do not ask the person to certify historical accuracy or “correctly” understand themselves.
 
 ## Template
+
+Book prose should be concrete and personally readable. The interface supplies provenance and status labels; repeating “AI提出·待确认” inside each body adds noise. A useful open question conveys the remaining uncertainty better than a paragraph of methodological limitations. Keep technical research cautions in researcher-facing notes. These presentation choices do not remove grounding or participant control.
 
 Use relevant parts only. All explanatory text below is template guidance to replace or omit, not facts about a participant.
 

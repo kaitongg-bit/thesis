@@ -1,22 +1,40 @@
-# Local book-page synchronization · prototype 0.2
+# Local book-page synchronization · prototype 0.3
 
-Read this when the participant supplies a book session ID and authorizes saving to that local book. Follow the conversation contract and record rules. This is a local companion display; the page does not read Codex chat history and no additional model API is used.
+Read this when local book saving is authorized, whether creating a new book or using an explicitly supplied one. Follow the conversation contract and record rules. This is a local companion display; it does not read Codex chat history and no additional model API is used. The agent itself selects and writes material through the utility.
 
 ## Participant scope
 
-Use only the supplied session ID, mechanism resources, and the local sync utility. Do not list other session files. A supplied ID authorizes reading that book only. Separate research use remains separately agreed. Explain a writing failure briefly without pretending the book was updated.
+Use only the book created for this conversation or an explicitly supplied session ID, mechanism resources, and the local utility. Do not list other session files or attach to a globally recent book. Separate research use remains separately agreed. Explain a failure briefly without pretending the book was updated.
 
 If the person withdraws permission to save or asks to keep the rest in chat, stop book writes. Do not delete earlier records unless they request that too.
 
-## Read the current book
+## Create and open a new book automatically
 
-Use the actual utility path from the participant's copied start message:
+The installed host skill contains `scripts/book.mjs`. Resolve its absolute path beside that skill's `SKILL.md`. It locates the configured local application without reading personal records, starts its local server if necessary, and supports `create`, `read`, `patch` and `link`.
+
+After local-saving permission and enough material for first pages, run:
 
 ```text
-node /absolute/path/bookctl.mjs read --id SESSION_ID
+node /absolute/path/personal-training-manual/scripts/book.mjs create
 ```
 
-The command reads local runtime metadata to reach the currently running book server and prints the authorized JSON record. It includes a `revision`, `entries`, and selected `sources`. Read it before each update, especially because the participant can edit the page between chat turns. If the server is not running, ask the person to open their book launcher; keep the conversation available meanwhile.
+Use a retained terminal session (`exec_command` with `tty: true` and a short yield). On `READY_FOR_JSON_ON_STDIN`, send one JSON line with `write_stdin`. Its fields are `alias` (optional, may be empty), `focus` (the participant's current question) and `ops` (the actual operation objects described below).
+
+Use `addSource` and `upsertEntry` objects as below for the first meaningful pages. The initial operations are validated and saved together before success; an invalid draft does not create an empty book. Keep personal wording out of shell arguments and temporary files. Output contains `ok`, the new `id`, `revision`, entry count and exact session `url`. Keep that ID in the current conversation. Never reuse another participant's ID, a demo or a synthetic test record.
+
+Open the returned URL using an available browser tool, preferring the in-app browser. Reuse a demo tab if appropriate; preserve existing personal books by using a new tab. Mark the user-facing book as a deliverable when the tool requires it. Do not ask the participant to copy connection information. If automatic opening is unavailable, provide the exact clickable URL and say so; a successful save is distinct from a successful page opening. Never claim an unobserved browser result.
+
+If a create command succeeded, reuse its ID rather than creating another book because browser opening failed. If the result is lost or uncertain, stop and resolve it; do not repeatedly create duplicates. The `link --id SESSION_ID` command returns the current server URL after checking that book exists. No transcript is automatically imported from elsewhere.
+
+## Read the current book
+
+Use the installed helper, or the utility path explicitly supplied by the participant:
+
+```text
+node /absolute/path/personal-training-manual/scripts/book.mjs read --id SESSION_ID
+```
+
+The command checks local runtime metadata, starts the local service if needed, and prints the authorized JSON record. It includes `revision`, `entries`, and selected `sources`. Read before each update because the participant can edit the page between chat turns. If the helper fails, keep the draft in chat, report that it has not been saved, and resolve the failure rather than asking the participant to recreate the connection manually.
 
 ## Write a meaningful small update
 
@@ -25,7 +43,7 @@ Update when there is something worth retaining or the participant requests it. L
 Run:
 
 ```text
-node /absolute/path/bookctl.mjs patch --id SESSION_ID --expected-revision N
+node /absolute/path/personal-training-manual/scripts/book.mjs patch --id SESSION_ID --expected-revision N
 ```
 
 Use a retained terminal session (`exec_command` with `tty: true`, short initial yield). It displays `READY_FOR_JSON_ON_STDIN`. Send one newline-terminated JSON object using `write_stdin`. Its input is not echoed. Do not put participant content in shell arguments or a new temporary file. Wait for the success response before saying the book changed.

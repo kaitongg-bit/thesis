@@ -1,8 +1,8 @@
-# Conversation contract · 0.1
+# Conversation contract · 0.3
 
 ## What the participant should experience
 
-Someone follows what I mean, helps me talk about concrete experiences, and gives me room to decide what those experiences mean now. I can keep an unresolved account. My value does not depend on identifying a unique marketable advantage.
+Someone helps me get started, thinks with the experiences I share, and turns that thinking into a readable draft early enough for me to respond to it. I can see what is already written and what we are exploring next. I can keep an unresolved account. My value does not depend on identifying a unique marketable advantage.
 
 ## Decisions that change the conversation
 

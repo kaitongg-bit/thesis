@@ -12,3 +12,15 @@ test('AI cannot turn a draft into participant acceptance',()=>{const a=base();as
 test('dangling provenance is rejected and inputs remain unchanged',()=>{const a=base();assert.throws(()=>applyOperations(a,0,'ai',[{type:'upsertEntry',entry:{...a.entries[1],sourceIds:['MISSING']}}]));assert.equal(a.entries[1].sourceIds[0],'S1');});
 test('storage serializes competing changes and never leaves partial JSON',async()=>{const dir=await fs.mkdtemp(path.join(os.tmpdir(),'ptm-book-test-'));try{const store=new BookStore(dir);const b=await store.create();const results=await Promise.allSettled([store.update(b.id,0,'participant',[{type:'setFocus',focus:'第一个问题'}]),store.update(b.id,0,'participant',[{type:'setFocus',focus:'第二个问题'}])]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.equal(results.filter(x=>x.status==='rejected')[0].reason.status,409);validate(await store.read(b.id));assert.equal((await fs.readdir(dir)).length,1);}finally{await fs.rm(dir,{recursive:true,force:true});}});
 test('session identifiers cannot escape the storage folder',async()=>{const store=new BookStore('/tmp/not-accessed');await assert.rejects(store.read('../../etc/passwd'));});
+test('first pages are created atomically and a failed draft leaves no empty book',async()=>{
+  const dir=await fs.mkdtemp(path.join(os.tmpdir(),'ptm-first-edition-'));
+  try{
+    const store=new BookStore(dir), a=base();
+    const initialOps=[...a.sources.map(source=>({type:'addSource',source})),...a.entries.map(entry=>({type:'upsertEntry',entry}))];
+    const created=await store.create({focus:'虚构：我学会了什么',initialOps});
+    assert.equal(created.revision,1);assert.equal(created.entries.length,2);
+    assert.deepEqual((await store.read(created.id)).entries,created.entries);
+    await assert.rejects(store.create({initialOps:[{type:'upsertEntry',entry:{...a.entries[1],sourceIds:['MISSING']}}]}));
+    assert.equal((await fs.readdir(dir)).length,1);
+  }finally{await fs.rm(dir,{recursive:true,force:true});}
+});
