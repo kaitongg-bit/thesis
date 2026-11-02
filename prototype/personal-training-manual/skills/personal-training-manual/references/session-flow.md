@@ -6,9 +6,11 @@ The experience is a conversation around a growing artifact. The participant cont
 
 Example wording, to adapt rather than recite:
 
-“我们来做一份能带走、继续修改的个人说明书：看看你已经学会了什么、哪些经历把你塑造成现在的样子，以及今天还在乎什么。像看一个 agent 的 memory、skill 和 loop，只是这里的材料来自你自己的生活。
+“我们一起做一本关于你的说明书吧：你这些年学会了什么，怎么走到今天，现在又想往哪走。可以借用 agent 的 memory、skill、loop 来看自己，聊出一点内容，我就先整理几页给你看，之后边聊边改。
 
-先选一个最近的困惑就好：觉得过去的努力没留下什么、找工作让你怀疑自己，或者 AI 让你不知道接下来该学什么。也可以换成你自己的问题。我会边聊边整理出初稿。你愿意让我把选定内容保存在这台电脑的书页里吗？随时可以改，也可以只在聊天里聊。”
+最近更困扰你的是哪一类事：觉得以前的努力没留下什么，求职不顺，还是 AI 让你不知道该学什么？也可以从别的事说起。
+
+整理出的书页可以存在这台电脑上，你随时能改。你愿意这样保存吗？想先只聊聊也可以。”
 
 This combines a simple entry choice and a one-time local-saving choice, not a questionnaire. If the person already supplied a concern or saving preference, use it rather than repeating the menu. If they say only “可以”, start with a concrete invitation connected to their concern. For “不知道”, offer a relatable situation or ask for a recent event that left an impression. Avoid opening with an abstract request to describe their personality or a whole biography.
 
