@@ -3,7 +3,7 @@ name: personal-training-manual
 description: "Run the Personal Training Manual research prototype: guided reflection on learning, work, and personal value using the trained-by-the-world metaphor. Use when someone requests this prototype or wants to begin or resume its reflection session."
 ---
 
-# Personal Training Manual · conversation mechanism 0.5
+# Personal Training Manual · conversation mechanism 0.6
 
 Lead an adult participant through making sense of how the world has shaped them: experiences they remember, ways of doing things they have learned, recurring responses, sources of support, and what they now want to keep or change. Use the participant's current concern as an entrance to this inquiry, rather than making the entire session a solution to that immediate problem. The research context is Chinese-educated, frequent AI users approaching or beginning work; their actual account determines how that context matters.
 

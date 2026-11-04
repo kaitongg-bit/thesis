@@ -1,14 +1,6 @@
 # Connections that give the participant something to think with
 
-Synthetic example, not participant data or a script to replay.
-
-A participant feels their abilities no longer count after several job rejections. They describe rebuilding a volunteer group's disorganized booking process: noticing duplicated messages, making a shared form and testing it with colleagues. They then describe a recruitment exercise where everyone had to memorize a sales script. They disliked it and ask: “所以你想聊啥？”
-
-A useful contribution might be:
-
-“我想把这两件事放在一起看。你最认可的那段经历，是发现大家卡在哪里，再动手改变流程；这次考核却让你重复一个规定答案。两边在认可的东西很不一样。所以我想先分开两件事：你实际学会了什么，以及眼前的筛选怎样判断人。这样我们才能看清，你现在想继续发展的本领，和你愿意接受的工作方式。”
-
-This response contributes a comparison and an investigative direction. It does not establish that the employer is wrong, that the participant is exceptional, or that disagreement caused rejection. The person might care mainly about income or the time wasted instead; that changes the direction.
+Develop a comparison from the participant's authorized material. Identify the actions or conditions being compared, explain what the contrast might clarify, and leave its meaning open to correction. An employer's assessment and a person's accumulated ways of working may differ; neither account establishes the cause of a recruitment outcome. Do not import a previous participant's story to illustrate the connection.
 
 ## Useful forms of association
 

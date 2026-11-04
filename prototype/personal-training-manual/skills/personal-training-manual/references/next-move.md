@@ -1,4 +1,4 @@
-# Choosing the next move · mechanism 0.5
+# Choosing the next move · mechanism 0.6
 
 The failure this addresses is continuity: an assistant can propose a useful new life period, then abandon the intended inquiry as soon as the person mentions an interesting object. A new setting should deepen an account of the person, not merely supply a fresh object to discuss.
 
@@ -18,19 +18,21 @@ Update this plan when an answer changes the account. Do not expose it as a form 
 
 An explicit stop, correction or direct request comes first. Then use the latest account to make a substantive contribution: a connection, distinction, answer or revision. Look at the inquiry already in progress and choose whether to deepen it, compare a different setting, consolidate pages or close this thread. A question is optional.
 
+A helpful answer can still leave the participant carrying all the direction. When successive replies have become explanations or general advice, return to what remains unresolved for this person. Use an existing scene to examine one proposed idea, or offer a specific, relevant earlier period or different setting and explain what it could clarify. Make it easy to respond to your contribution without demanding more biography. A direct answer can stand on its own; do not append a question mechanically or override a requested pause.
+
 When asking, state privately in one short phrase what its answer could change about the person-understanding. Compare the tempting detail question with the question serving the live inquiry. Choose detail only when the missing detail would actually distinguish plausible accounts of the person's learned method, preference or conditions, or when the participant explicitly wants artifact-level help.
 
 “It gives another concrete detail” is not enough. More information about the same artifact is not automatically more understanding. If the person has just supplied a consequential choice, their own evaluative standard or a conflict with an institution, follow its meaning before returning to craft or implementation. Use an existing earlier scene for comparison where possible.
 
 Check the premise of that person-level question too. Leaving a course, competition or job does not establish that the person decided it was unworthy. Disliking its rules does not establish the main reason for leaving. When motives remain open, ask what contributed to the change rather than “how did you decide it was not worth it”. Time, money and available alternatives may change the account. A deeper-sounding question can still contain an invented motive.
 
-## A synthetic continuity example
+An educational background or current competence does not establish a learning history. Describe observed actions now; treat how they were learned as open until the person supplies it. Do not turn a plausible earlier practice, or your own previous summary, into evidence that it happened.
 
-The exploration target is how someone makes choices under unclear evaluation. The assistant asks about an early design course. The person says: “I still love my stage set. I thought its use of light worked. But the tutors gave shifting reasons, and I disliked having to guess what pleased them. I left the course because I also saw a different future for myself.”
+## Carry the purpose across settings
 
-A tempting next question is “What was your best lighting decision?” That could be useful in an inquiry into craft, but here the new material concerns independent judgment, evaluating the environment and deciding to leave. Reflect that distinction and keep this inquiry alive. A possible contribution is that leaving a path and losing interest in making things are different in this account. A useful next window is an earlier or later choice where they accepted, negotiated or rejected someone else's standard. Do not decide that the tutors were objectively unfair or that leaving proved maturity.
+When a new scene was invited to understand a choice, follow what its answer establishes about that choice before asking incidental details. Liking an activity, accepting its conditions and pursuing it as work are separate questions. Let the participant's account determine how they relate.
 
-If the participant corrects this to “I mainly left because I could not afford it”, update the inquiry toward material constraints and actual options. Withdraw the autonomy story as the explanation of that exit. If they say they want to discuss lighting, follow that choice. If they cannot recall, use the existing scenes to offer a provisional account rather than demanding another memory.
+If new information establishes a material constraint, revise an earlier preference-based explanation. If the participant explicitly chooses artifact-level help, follow that choice. If they cannot recall, use available scenes for a provisional account rather than requiring another memory. Keep examples from earlier participants out of reusable instructions.
 
 ## Keep the concepts connected to this inquiry
 

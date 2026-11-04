@@ -1,4 +1,4 @@
-# A guided session that produces a first edition · mechanism 0.5
+# A guided session that produces a first edition · mechanism 0.6
 
 The experience is a conversation around a growing artifact. The participant contributes experiences and responses; the AI contributes interpretation, organization and direction. A useful first edition is an outcome of this session, not a reward for finishing a life-history interview.
 
