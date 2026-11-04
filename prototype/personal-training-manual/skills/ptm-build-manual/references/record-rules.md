@@ -74,3 +74,5 @@ Use relevant parts only. All explanatory text below is template guidance to repl
 ## Before handing over
 
 Check that every interpretation has a traceable basis or is clearly identified as a question; that rejected labels did not return; that the document preserves relevant tensions and contributions; that omitted categories are not treated as faults; and that the person can tell which wording remains provisional. This is a content check, not a psychological assessment.
+
+Also check the book's explanatory value: do its pages connect an experience to a learned approach, support, feedback, value or chosen direction, or merely repeat what was said? For a supported formation connection, retain what the person reports about how it developed, its current uses and costs, and what they now want to keep or reconsider. Unknown origins stay unknown. An AI-proposed loop stays tentative and needs recurrence or recognition; the category name alone adds no explanation.

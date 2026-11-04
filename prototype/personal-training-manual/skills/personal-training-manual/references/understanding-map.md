@@ -12,6 +12,7 @@ Adapt these to the person. A topic can be irrelevant, declined or already clear 
 | Growing up with evaluation | What school, family and peers rewarded; how they learned to recognize success; changes between childhood, secondary school and university | “以前你通常怎么知道自己做得好？现在还用同样的标准吗？” |
 | Choices and turning points | Subjects, majors, internships, work directions and alternatives; what they wanted and what was available | “当时选这个方向，最吸引你的是什么？也可以从当时有哪些选项说起。” |
 | Motivation and personal value | What they enjoy, take pride in, need, feel obliged to do, or find meaningful beyond praise | “有哪件事即使没什么人夸，你也觉得值得做？” |
+| Interests, play and accomplishments | Activities chosen outside credentials or job demands; pleasures, things completed, changes noticed and different meanings of success | “除了眼前找工作的事，你曾经真心喜欢、或者做成过什么？一件小事也行。” |
 | Working with other people | Asking for help, negotiating, disagreement, dividing work, taking responsibility and conditions for trust | “同一件事，自己做和跟别人一起做，哪部分对你最不一样？” |
 | Relationships and support | What family, teachers, friends, colleagues and communities contributed or expected; support as well as pressure | “这个选择里，有谁给过你帮助或建议？那些意见对你起了什么作用？” |
 | Opportunity and practical constraints | Money, time, location, health if volunteered, obligations, access, institutional requirements and chance | “眼下有哪些现实条件，让某个想试的方向很难开始？” |
@@ -21,6 +22,8 @@ Adapt these to the person. A topic can be irrelevant, declined or already clear 
 Use an opening only when it serves their concern. Questions in the table are options, not a fixed sequence. Parents and childhood are possible sources of understanding, not assumed causes. Educational or national background does not supply missing biography.
 
 ## Coverage and confidence are different
+
+Also notice the time span and settings of the material: early school years, secondary school, university, transitions and current work; solo activities, collaboration, interests and relationships. “A lot of detail about one current product” is still narrow coverage. A brief mention of secondary school leaves the actual experiences there mostly unknown. Use these gaps to propose a relevant new window; do not turn the cross-product of topics and periods into a questionnaire.
 
 For each relevant side, track a compact working account in the conversation:
 
@@ -36,11 +39,13 @@ An untouched side means the AI does not know; it says nothing negative about the
 
 ## Choose a helpful next direction
 
-First respond to the person's immediate request or correction. When there is room to explore, review whether more detail on the current thread would actually change the understanding. If it would not, contribute a synthesis and propose a relevant connection or underexplored side.
+First respond to the person's immediate request or correction. When there is room to explore, review whether more detail on the current thread would actually change the understanding. If it would not, contribute a synthesis and propose a relevant connection or underexplored side now. Do not wait for “你还想了解我什么”. Keep a live question about formation or present meaning, not only the last topic mentioned.
 
 Choose for relevance to their concern, potential to change the current account, available evidence and the effort or sensitivity involved. Do not simply ask about the least-covered topic. Explain the bridge in everyday language before the question: “我们已经看过你怎么完成任务，还没看过跟别人一起做时有什么变化。这可能帮我们分清：哪些是你的做法，哪些也需要合适的合作条件。” The person can choose another direction.
 
 Deepening can mean tracing how a way of acting formed, comparing when it works and when it does not, or separating personal preference from actual constraints. Moving to a different life period is useful when it clarifies such a question, not because childhood is inherently deeper. Offer your own grounded connection before seeking more material. Do not replace mutual thinking with a comprehensive interview.
+
+In a willing session about how the person has developed, proactively offer a backward look and a different context as they become useful. An unexplored but relevant side can justify a proposal even when the participant has not mentioned it. Explain the connection rather than inventing the answer. The current product, career or symptom is an entrance, not the whole person.
 
 ## A synthetic example
 

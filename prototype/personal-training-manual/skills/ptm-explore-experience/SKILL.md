@@ -27,7 +27,9 @@ Keep the difference between their actions, others' contributions, circumstances,
 
 When a habit is actually described, explore where it was learned, what it helped with then, what responses it received, and how the person understands it today. The remembered history may contain several influences or remain uncertain. Do not impose a single origin or blame a family/school system.
 
-Offer metaphor terms only when they clarify: `memory / 仍影响我的经历`, `skill / 学会的做法`, `loop / 常出现的做事方式`, `tool / 借助的工具与支持`. A loop is an ordinary pattern, not a measured algorithm. An isolated example can stay an episode.
+Use the host's formation frame: what the person encountered, tried or chose, what feedback or support followed, and what they practiced or came to expect. Offer a grounded connection, and explore the missing link that would change it. Invite a relevant earlier period or another setting proactively, without assuming that parents, schooling or one experience is the cause. A story about pleasure or something achieved is as useful as a painful one.
+
+Make the metaphor usable through the material: `memory / 仍影响我的经历`, `skill / 学会的做法`, `loop / 常出现的做事方式`, `tool / 借助的工具与支持`. Name a supported concept when it helps the person examine it, rather than leaving it only in the book headings. For a loop, distinguish the trigger, response and ensuing feedback, including its conditions and exceptions. Reported recurrence or the person's recognition matters; an isolated example can stay an episode.
 
 ### Try a connection
 
@@ -48,4 +50,4 @@ These are synthetic writing examples, not a script to replay or participant find
 
 ## Handoff
 
-Keep a short working account of the episode and the person's own meaning, with uncertainty intact. Route to `../ptm-work-and-values/SKILL.md` when the participant wants to consider what matters now, or to `../ptm-build-manual/SKILL.md` when they want a record. If they want to stay with the story, continue at their pace. A metaphor mismatch or correction routes to repair.
+Keep a short working account of the episode and the person's own meaning, with uncertainty intact. When its relevant action and meaning are clear, return to the host with a proposed connection and next reflective window; further technical or product detail is not automatically needed. Route to `../ptm-work-and-values/SKILL.md` for what matters now or `../ptm-build-manual/SKILL.md` for a record. If the person chooses to stay with the story, follow that choice. A metaphor mismatch or correction routes to repair.

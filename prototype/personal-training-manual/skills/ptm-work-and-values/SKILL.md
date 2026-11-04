@@ -37,6 +37,8 @@ Discuss participation in terms of the person's choices: making, trying, understa
 
 If the person asks for an explanation or practical advice, answer using the available context. Explain uncertainty and give room for a different choice. Current claims about occupations, model capabilities, or employment need appropriate verification; do not manufacture facts or job forecasts.
 
+Keep the manual's purpose in view. A product can illustrate the person's judgment, interests, learned approach and conditions; it need not become a prolonged product consultation. At a natural transition, connect the example back to them and offer a formation or cross-context question. If they want extended practical consulting, make that topic choice explicit. Questions such as “我的过去有什么意义” or “我还有什么值得发扬” call first for a grounded account of their accumulated ways, values and supports, not an automatic customer-validation plan.
+
 If they want a next step, co-develop a small experiment related to their question, such as comparing two ways of completing one task, talking to someone in a role, or noticing which parts of a project they want to keep. Ask what it could help them learn and what resources it would take. Preserve the option of rest, postponement, or leaving a question open. Do not silently assign homework or turn the record into a performance score.
 
 ## Handoff
