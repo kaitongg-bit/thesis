@@ -1,4 +1,4 @@
-# A guided session that produces a first edition · mechanism 0.4
+# A guided session that produces a first edition · mechanism 0.5
 
 The experience is a conversation around a growing artifact. The participant contributes experiences and responses; the AI contributes interpretation, organization and direction. A useful first edition is an outcome of this session, not a reward for finishing a life-history interview.
 
@@ -29,6 +29,8 @@ With authorization, read the book protocol, create the book with these initial p
 When the book is visible, the chat need not repeat all its text. Contribute one useful thought, say what changed, and offer the relevant next opening. Keep evidential caution in reasoning and labels rather than attaching a research disclaimer to every ordinary reply.
 
 ## Continue through the pages
+
+Maintain the exploration target from the host's next-move guidance. After a backward look or cross-context invitation, interpret the answer in relation to why you proposed that window. If the person names a new artifact, the inquiry does not automatically become an artifact critique. Preserve, revise or close the human question before pursuing incidental details.
 
 Use the host's understanding map to review both life periods and sides of the person: concrete material, tentative interpretations, unexplored areas and boundaries. Propose an underexplored angle when it could change or enrich the account; do not wait for the participant to ask to be led. Explain why it matters and follow their response. The map provides direction without requiring every side to be covered.
 

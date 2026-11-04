@@ -21,6 +21,8 @@ If they cannot recall, offer a choice of kinds of moments, such as one that took
 
 Ask only for missing context that matters now. Possible angles include the situation, what they tried, who else participated, the available choices, and what happened next. Let the person tell the story before repeatedly interrupting. Avoid an entire who/when/why/how questionnaire in one response.
 
+Keep the host's current exploration target in view. When an episode was invited to understand a choice, standard or formation process, select the next question for that purpose. A striking work sample or technical problem does not by itself justify switching to artifact details. Explain the person-level understanding that a detail would help distinguish before choosing to ask it.
+
 Keep the difference between their actions, others' contributions, circumstances, and outcomes. A successful outcome does not prove an individual trait; a disappointing one does not prove a deficit. Check whether your question contains a new assumption. Use the person's own degree of certainty about motivations; keep chosen and constrained actions open until they describe them. For example, “这几件事里，哪一部分让你累？” leaves more room than presuming they were forced to take the role.
 
 ### Explore how a way of acting formed
